@@ -7,7 +7,8 @@ description: "A Clean Blog Theme by Start Bootstrap"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
+        <h2 class="post-title">
+        	{{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
@@ -33,6 +34,7 @@ description: "A Clean Blog Theme by Start Bootstrap"
 		  {% when '12' %}Décembre
 		{% endcase %} {{ post.date | date: '%Y' }}
     </span>
+    {{ post.excerpt }}
     <a href="{{ post.url | prepend: site.baseurl }}" class="to_post">
     	<span>Lire la suite</span>
     	<i class="fa fa-chevron-circle-right"></i>

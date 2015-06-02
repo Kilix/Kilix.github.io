@@ -31,7 +31,7 @@ a img:focus {
   cursor: zoom-in;
 }
 blockquote {
-  color: #808080;
+  color: #999999;
   font-style: italic;
 }
 hr.small {
@@ -170,7 +170,7 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
+  background-color: #999999;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -246,6 +246,9 @@ hr.small {
     font-size: 30px;
   }
 }
+.post-preview {
+  padding-bottom: 20px;
+}
 .post-preview > a {
   color: #434343;
 }
@@ -265,8 +268,8 @@ hr.small {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  color: #808080;
-  font-size: 18px;
+  color: #999999;
+  font-size: 16px;
   font-style: italic;
   margin-top: 0;
 }
@@ -280,11 +283,15 @@ hr.small {
   text-decoration: underline;
 }
 .post-preview .to_post {
+  display: block;
   float: right;
   color: #3a81ba;
 }
 .post-preview .to_post:hover {
   text-decoration: underline;
+}
+.post-preview p {
+  margin: 30px 0 0 0;
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
@@ -450,6 +457,7 @@ form .row:first-child .floating-label-form-group {
   letter-spacing: 1px;
   padding: 10px 5px;
   background-color: white;
+  border: 0;
   border-radius: 0;
 }
 @media only screen and (min-width: 768px) {
@@ -461,15 +469,14 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a:hover,
 .pager li > a:focus {
-  color: white;
-  background-color: #3a81ba;
-  border: 1px solid #3a81ba;
+  color: #3a81ba;
+  background-color: white;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #808080;
+  color: #999999;
   background-color: #434343;
   cursor: not-allowed;
 }
