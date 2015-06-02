@@ -2,28 +2,52 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% if site.github_username %}
-                    <li>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-                <p class="copyright text-muted">&copy; 2015 Kilix est une marque déposée par Extia</p>
+            <div class="col-md-4 col-xs-12 block-align">
+         	   <div>
+					<strong>Kilix by Extia</strong>
+					<br>
+					<a target="_blank" href="https://maps.google.fr/maps?q=google+maps+1+avenue+de+la+cristallerie&amp;ie=UTF-8&amp;hq=&amp;hnear=0x47e67b0491111b29:0x1e40b81275175848,1+Avenue+de+la+Cristallerie,+92310+S%C3%A8vres&amp;gl=fr&amp;ei=S0DYUqWaOKO90QX4roHIDw&amp;ved=0CDIQ8gEwAA">1, avenue de la Cristallerie</a>
+					<br>
+					<span class="gray-text">Entrée A – 6ème étage</span>
+					<br>
+					<span class="gray-text">92310 SÈVRES</span>
+				</div>
+            </div>
+            <div class="col-md-4 col-xs-12 block-align contact-us">
+            	<div>
+            		<strong>Contactez-nous</strong>
+					<br>
+					<span class="gray-text">Tél : 01 46 99 91 91</span>
+					<br>
+					<span class="gray-text">Fax : 01 46 99 91 90</span>
+					<br>
+					<a href="mailto:contact@kilix.fr" title="Contactez Kilix">contact@kilix.fr</a>
+            	</div>
+            </div>
+            <div class="col-md-4 col-xs-12 block-align">
+				<div>
+					<p class="copyright">
+						&copy; 2015 Kilix est une marque déposée par <a href="http://extia.fr" target="_blank" class="link_extia"><img src="/img/logo_extia.png" alt="Logo Extia" class="logo_extia"></a>
+					</p>
+					<ul class="list-inline text-center">
+						<li>
+							<a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/{{ site.github_username }}" target="_blank">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
             </div>
         </div>
     </div>
