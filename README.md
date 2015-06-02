@@ -1,24 +1,27 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+# Kilix, l'agence digital avec des Post-Its sur les murs !
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+Kilix est l'agence digitale Agile d'[Extia](http://extia.fr).
 
-###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
+## Notre ADN
 
-## Before You Begin
+### Extia
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+Nous nous appuyons  sur l’expertise d’EXTIA, acteur reconnu du conseil en ingénierie depuis 7 ans. Elle met à votre disposition ses meilleurs consultants pour vous garantir l’atteinte de vos objectifs dans les délais impartis.
 
-It should look like this:
-`baseurl: ""`
+### Gestion par la valeur
 
-## What's Included
+L’optimisation du Time-To-Market de votre produit est le facteur clé de succès le plus important. Afin de répondre aux attentes de vos utilisateurs finaux, nous pilotons votre projet en priorisant les besoins les plus urgents et en les livrant régulièrement.
 
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+### Gestion du risque
 
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+Avec vous, et dès le lancement d’un projet nous menons une analyse des risques et mettons en place des parades concrètes pour maximiser la réussite du produit.
 
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
+### Amélioration continue
 
-## Support
+Vous bénéficiez du retour d’expérience de l’agence sur ses projets. Nous mettons en place à l’issue de chaque itération des activités pour capitaliser sur le positif, cibler et éliminer le négatif, et ce en toute transparence avec vous.
 
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+## Le Blog Kilix
+
+L'objectif de ce blog est de partager nos retours d'expériences aussi bien technique qu'en terme de gestion de projet en Agilité.
+
+Have fun and join us on [Kilix](htt://kilix.fr)
