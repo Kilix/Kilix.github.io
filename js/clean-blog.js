@@ -19,7 +19,7 @@ $(document).ready(function () {
 
 // Navigation Scripts to Show Header on Scroll-Up
 $(document).ready(function($) {
-    var MQL = 1170;
+    var MQL = 768;
 
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
