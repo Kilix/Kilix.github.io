@@ -1,7 +1,7 @@
 body {
   font-family: 'Source Sans Pro', serif;
   font-size: 20px;
-  color: #404040;
+  color: #434343;
 }
 p {
   line-height: 1.5;
@@ -20,11 +20,11 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #404040;
+  color: #434343;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #3a81ba;
 }
 a img:hover,
 a img:focus {
@@ -133,6 +133,12 @@ hr.small {
   .navbar-custom {
     background: rgba(0, 0, 0, 0.4);
     border-bottom: 0;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+  }
+  .navbar-custom.is-top {
+    background-color: #2c313f;
   }
   .navbar-custom .nav li a:after {
     position: absolute;
@@ -160,16 +166,6 @@ hr.small {
     -ms-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .navbar-custom {
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-  }
-  .navbar-custom.is-top {
-    background-color: #2c313f;
   }
 }
 .intro-header {
@@ -251,12 +247,12 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: #434343;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #3a81ba;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -276,11 +272,18 @@ hr.small {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #434343;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #3a81ba;
+  text-decoration: underline;
+}
+.post-preview .to_post {
+  float: right;
+  color: #3a81ba;
+}
+.post-preview .to_post:hover {
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -304,16 +307,67 @@ hr.small {
   border-bottom-left-radius: 5px;
 }
 footer {
+  background: #202529;
+  color: #e7e7e7;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 20px;
   padding: 50px 0 65px;
+}
+footer a {
+  color: #e7e7e7;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: none;
+}
+footer .gray-text {
+  color: rgba(199, 199, 199, 0.67);
+}
+footer strong {
+  font-weight: 400;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.25);
 }
 footer .list-inline {
   margin: 0;
   padding: 0;
 }
 footer .copyright {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 0;
+  color: rgba(199, 199, 199, 0.67);
+  margin: 10px 0 20px 0;
+}
+footer .block-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  footer .block-align {
+    margin-top: 15px;
+  }
+}
+footer .block-align.contact-us > div {
+  min-width: 190px;
+}
+footer .link_extia {
+  cursor: pointer;
+}
+footer .link_extia .logo_extia {
+  width: 50px;
+  display: inherit;
+  cursor: pointer;
+}
+footer .fa-stack {
+  color: white;
+}
+footer .fa-stack .fa-inverse {
+  color: #202529;
+}
+footer .fa-stack:hover {
+  color: #3a81ba;
+}
+footer .fa-stack:hover .fa-inverse {
+  color: white;
 }
 .floating-label-form-group {
   font-size: 14px;
@@ -360,7 +414,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #3a81ba;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -380,8 +434,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #3a81ba;
+  border: 1px solid #3a81ba;
   color: white;
 }
 .pager {
@@ -408,26 +462,26 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #3a81ba;
+  border: 1px solid #3a81ba;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #808080;
-  background-color: #404040;
+  background-color: #434343;
   cursor: not-allowed;
 }
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #3a81ba;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #3a81ba;
 }
 img::selection {
   color: white;
@@ -438,5 +492,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #3a81ba;
 }

@@ -1,19 +1,17 @@
 # Site settings
 title: Kilix Blog
-header-img: img/landing-bg.jpg
+header-img: img/photo-header.jpg
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 logo: /img/kilix-logo-blog.png
 baseurl: ""
 url: "http://yourdomain.com"
 
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+github_username:  Kilix
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
