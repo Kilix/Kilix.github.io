@@ -7,9 +7,7 @@ logo: /img/kilix-logo-blog.png
 baseurl: ""
 url: "http://yourdomain.com"
 
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+github_username:  Kilix
 
 # Build settings
 markdown: kramdown
