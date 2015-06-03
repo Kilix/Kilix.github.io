@@ -27,6 +27,7 @@ h5,
 h6 {
 	.sans-serif;
 	font-weight: 800;
+	text-transform: capitalize;
 }
 
 a {
@@ -121,6 +122,18 @@ hr.small {
 			}
 		}
 		li {
+			&.to_kilix {
+				border-top: 1px solid rgba(255, 255, 255, 0.1);
+				a {
+					&:hover,
+					&:focus {
+						color: @brand-primary;
+						&:after {
+							opacity: 0;
+						}
+					}
+				}	
+			}
 			a {
 				color: white;
 				padding: 0;
@@ -163,6 +176,10 @@ hr.small {
 		}
 		.nav {
 			li {
+				&.to_kilix {
+					border-left: 1px solid rgba(255, 255, 255, 0.1);
+					border-top: 0;	
+				}
 				a {
 					&:after {
 						position: absolute;
@@ -206,6 +223,10 @@ hr.small {
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
 	margin-bottom: 50px;
+	.container {
+		background: rgba(0,0,0,.2);
+		width: 100%;
+	}
 	.site-heading,
 	.post-heading,
 	.page-heading {
@@ -221,6 +242,7 @@ hr.small {
 		h1 {
 			margin-top: 0;
 			font-size: 50px;
+			text-shadow: 4px 4px 0 rgba(0,0,0,.2);
 		}
 		.subheading {
 			font-size: 24px;
@@ -239,6 +261,7 @@ hr.small {
 	.post-heading {
 		h1 {
 			font-size: 35px;
+			text-shadow: 4px 4px 0 rgba(0,0,0,.2);
 		}
 		.subheading,
 		.meta {
@@ -275,6 +298,9 @@ hr.small {
 
 .post-preview {
 	padding-bottom: 20px;
+	img {
+		margin: auto;
+	}
 	> a {
 		color: @gray-dark;
 		&:hover,
@@ -285,7 +311,7 @@ hr.small {
 		> .post-title {
 			font-size: 30px;
 			margin-top: 30px;
-			margin-bottom: 10px;
+			margin-bottom: 0;
 		}
 		> .post-subtitle {
 			margin: 0;
@@ -308,10 +334,15 @@ hr.small {
 			}
 		}
 	}
+	.title-category {
+		float: right;
+		text-transform: capitalize;
+	}
 	.to_post {
 		display: block;
 		float: right;
 		color: @brand-primary;
+		font-size: 16px;
 		&:hover {
 			text-decoration: underline;
 		}
@@ -329,6 +360,21 @@ hr.small {
 }
 
 // Sections
+
+article img {
+	margin: auto;	
+}
+
+.tags, .category {
+	color: @brand-primary;
+	font-size: 16px;
+	margin: 0;
+}
+.category {
+	a {
+		text-transform: capitalize;
+	}
+}
 
 .section-heading {
 	font-size: 36px;
@@ -388,6 +434,8 @@ footer {
 		}
 	}
 	.link_extia {
+		vertical-align: super;
+		padding-left: 2px;
 		cursor: pointer;
 		.logo_extia {
 			width: 50px;
@@ -505,7 +553,6 @@ form .row:first-child .floating-label-form-group {
 		> a,
 		> span {
 			.sans-serif;
-			text-transform: uppercase;
 			font-size: 14px;
 			font-weight: 800;
 			letter-spacing: 1px;

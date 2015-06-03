@@ -1,0 +1,20 @@
+- slug: github-pages
+  name: GitHub Pages
+- slug: github
+  name: GitHub
+- slug: jekyll
+  name: Jekyll
+- slug: django-template-tags
+  name: Django Template Tags
+- slug: django
+  name: Django
+- slug: font-awesome
+  name: Font Awesome
+- slug: icons
+  name: Icons
+- slug: image-processing
+  name: Image Processing
+- slug: open-source
+  name: Open Source
+- slug: python
+  name: Python
