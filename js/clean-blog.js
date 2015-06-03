@@ -39,10 +39,3 @@ $(document).ready(function($) {
             });
     }
 });
-
-$(document).ready(function() {
-	$('.nav').click('a', function(e) {
-		$('.nav').find('li').removeClass('active');
-		$(this).parent.addClass('active');
-	})
-});

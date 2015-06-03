@@ -1,0 +1,42 @@
+---
+layout: page
+description: ""
+---
+
+{% if site.tags[page.tag] %}
+	{% for post in site.tags[page.tag] %}
+	<div class="post-preview">
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			<h2 class="post-title">
+				{{ post.title }}
+			</h2>
+		</a>
+		<span class="post-meta">
+			Posté par {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} le 
+			{{ post.date | date: '%d' }} {% assign m = post.date | date: "%-m" %}
+			{% case m %}
+			  {% when '1' %}Janvier
+			  {% when '2' %}Février
+			  {% when '3' %}Mars
+			  {% when '4' %}Avril
+			  {% when '5' %}Mai
+			  {% when '6' %}Juin
+			  {% when '7' %}Juillet
+			  {% when '8' %}Août
+			  {% when '9' %}Septembre
+			  {% when '10' %}Octobre
+			  {% when '11' %}Novembre
+			  {% when '12' %}Décembre
+			{% endcase %} {{ post.date | date: '%Y' }}
+		</span>
+		{{ post.excerpt }}
+		<a href="{{ post.url | prepend: site.baseurl }}" class="to_post">
+			<span>Lire la suite</span>
+			<i class="fa fa-chevron-circle-right"></i>
+		</a>
+	</div>
+	<hr>
+	{% endfor %}
+{% else %}
+	<p>There are no posts for this tag.</p>
+{% endif %}

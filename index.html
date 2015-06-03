@@ -1,7 +1,6 @@
 ---
 layout: page
-title: "Home"
-description: "A Clean Blog Theme by Start Bootstrap"
+description: "A Clean Blog Theme by Kilix"
 ---
 
 {% for post in paginator.posts %}
@@ -10,14 +9,12 @@ description: "A Clean Blog Theme by Start Bootstrap"
         <h2 class="post-title">
         	{{ post.title }}
         </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
+    </a>
+    <a href="/blog/category/{{ post.category }}">
+    	<span class="title-category">{{ post.category }}</span>
     </a>
     <span class="post-meta">
-    	Posté par {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} le 
+    	Posté le 
     	{{ post.date | date: '%d' }} {% assign m = post.date | date: "%-m" %}
 		{% case m %}
 		  {% when '1' %}Janvier
@@ -33,6 +30,7 @@ description: "A Clean Blog Theme by Start Bootstrap"
 		  {% when '11' %}Novembre
 		  {% when '12' %}Décembre
 		{% endcase %} {{ post.date | date: '%Y' }}
+   		 - par {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} 
     </span>
     {{ post.excerpt }}
     <a href="{{ post.url | prepend: site.baseurl }}" class="to_post">
