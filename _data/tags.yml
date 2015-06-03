@@ -1,20 +1,12 @@
-- slug: github-pages
-  name: GitHub Pages
-- slug: github
-  name: GitHub
-- slug: jekyll
-  name: Jekyll
-- slug: django-template-tags
-  name: Django Template Tags
-- slug: django
-  name: Django
-- slug: font-awesome
-  name: Font Awesome
-- slug: icons
-  name: Icons
-- slug: image-processing
-  name: Image Processing
-- slug: open-source
-  name: Open Source
-- slug: python
-  name: Python
+- slug: scrum
+  name: SCRUM
+- slug: us
+  name: US
+- slug: product-owner
+  name: Product Owner
+- slug: specification
+  name: Spécification
+- slug: management
+  name: Management
+- slug: valeur-humaine
+  name: Valeur Humaine
