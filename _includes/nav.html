@@ -19,7 +19,7 @@
             <ul class="nav navbar-nav navbar-right">
 				{% for category in site.categories %}
 					<li>
-						<a href="/blog/category/{{ category[0] }}">{{ category[0] }}</a>
+						<a href="/blog/category/{{ category[0] }}" class="{{ category[0] }}">{{ category[0] }}</a>
 					</li>
 				{% endfor %}
 				<li class="to_kilix">

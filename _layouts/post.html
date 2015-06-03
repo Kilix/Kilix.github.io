@@ -60,9 +60,39 @@ layout: default
 
 				{{ content }}
 				
+				<hr>
+				
 				<p class="tags" id="post-meta">{{ tags_content }}</p>
 				<p class="category">Catégorie : <a href="/blog/category/{{ post.category }}">{{ post.category }}</a></p>
                 
+                <!-- AddToAny BEGIN -->
+				<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+					<a class="a2a_dd" href="https://www.addtoany.com/share_save"></a>
+					<a class="a2a_button_facebook"></a>
+					<a class="a2a_button_twitter"></a>
+					<a class="a2a_button_google_plus"></a>
+				</div>
+				<!-- AddToAny END -->
+                
+                {% for data_author in site.data.authors %}
+                	{% if data_author.name == post.author %}
+                		{% assign author = data_author %}
+                	{% endif %}
+                {% endfor %}
+                
+				{% if author %}
+					<div class="author">	
+						<span>
+							<img src="{{ author.img }}" alt="{{ author.name }}" class="author_img img-thumbnail">	
+						</span>
+						<span class="author_infos">
+							<strong>{{ author.name }}</strong>
+							<br>
+							<span class="author_job">{{ author.job }}</span>
+						</span>
+					</div>
+				{% endif %}
+				
                 <hr>
 
 <!--

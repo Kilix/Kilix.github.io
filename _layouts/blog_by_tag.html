@@ -11,6 +11,9 @@ description: ""
 				{{ post.title }}
 			</h2>
 		</a>
+		<a href="/blog/category/{{ post.category }}">
+			<span class="title-category {{ post.category }}">{{ post.category }}</span>
+		</a>
 		<span class="post-meta">
 			Posté par {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} le 
 			{{ post.date | date: '%d' }} {% assign m = post.date | date: "%-m" %}
