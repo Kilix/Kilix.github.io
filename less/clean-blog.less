@@ -319,9 +319,8 @@ hr.small {
 			color: @brand-primary;
 		}
 		> .post-title {
-			max-width: 75%;
 			font-size: 30px;
-			margin-top: 30px;
+			margin-top: 60px;
 			margin-bottom: 0;
 		}
 		> .post-subtitle {
@@ -352,7 +351,7 @@ hr.small {
 		padding: 7px 16px 7px 36px;
 		text-transform: capitalize;
 		position: absolute;
-		top: 0;
+		top: -50px;
 		right: 0;
 		&:after {
 			content: "";
@@ -367,12 +366,21 @@ hr.small {
 		}
 		&.front-end {
 			background-color: @green_kilix;
+			&:hover {
+				background-color: darken(@green_kilix, 10%);
+			}
 		}
 		&.back-end {
 			background-color: @blue_kilix;
+			&:hover {
+				background-color: darken(@blue_kilix, 10%);
+			}
 		}
 		&.agilité {
 			background-color: @red_kilix;
+			&:hover {
+				background-color: darken(@red_kilix, 10%);
+			}
 		}
 	}
 	.to_post {
@@ -393,9 +401,14 @@ hr.small {
 	@media only screen and (min-width: 768px) {
 		> a {
 			> .post-title {
+				max-width: 75%;
+				margin-top: 30px;
 				font-size: 36px;
 				font-weight: 800;
 			}
+		}
+		.title-category {
+			top: 0;
 		}
 	}
 }
