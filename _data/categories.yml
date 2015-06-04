@@ -4,3 +4,7 @@
   name: Design
 - slug: backend
   name: Backend
+- slug: frontend
+  name: Frontend
+- slug: fun
+  name: Fun

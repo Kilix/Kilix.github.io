@@ -3,7 +3,7 @@ layout: post
 title:  "L’humain, la clé pour réussir son projet"
 date:   2015-06-01 14:49:34
 author: Nicolas Poitelon
-category: design
+category: agilité
 tags: [management, valeur-humaine]
 ---
 ![le-convoyeur-avec-chapelin](http://agile4manager.com/wp-content/uploads/2014/08/le-convoyeur-avec-chapelin.jpg)
