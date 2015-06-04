@@ -10,3 +10,7 @@
   name: Management
 - slug: valeur-humaine
   name: Valeur Humaine
+- slug: php
+  name: PHP
+- slug: phpunit
+  name: PhpUnit
