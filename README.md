@@ -33,14 +33,17 @@ L'objectif de ce blog est de partager nos retours d'expériences aussi bien tech
 * Ajoutez le header de l'article dans le fichier:
 ```no-highlight
 ---
-layout:   post
-title:    "nom-de-l-article"
-date:     YYYY-MM-dd HH:mm:ss
-author:   nom-de-l-auteur
-category: catégorie
-tags:     [ tag1, tag2, tag3, ...]
+layout:     post
+title:      "nom-de-l-article"
+date:       YYYY-MM-dd HH:mm:ss
+author:     nom-de-l-auteur
+header-img: lien-vers-une-image [1][2]
+category:   catégorie
+tags:       [ tag1, tag2, tag3, ...]
 ---
 ```
+[1] Si l'image se trouve en local, n'oubliez pas de l'ajouter dans le dossier `img`
+[2] Optionnel, vous pouvez ne pas renseigner cette ligne
 * Ajoutez le contenu de l'article à la suite dans le fichier, n'oubliez pas de placer `<!--more-->` qui définit la limite de l'extrait de l'article qui apparaitra sur la page d'accueil du blog
 * Proposez votre article, et faites une requête pour le faire valider
 
