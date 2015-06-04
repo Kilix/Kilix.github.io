@@ -157,17 +157,21 @@ hr.small {
 					opacity: 0;
 				}
 				&.frontend:after {
-					background: @green_kilix;;
+					background: @green_kilix;
 				}
 				&.backend:after {
-					background: @blue_kilix;;
+					background: @blue_kilix;
 				}
 				&.agilité:after {
-					background: @red_kilix;;
+					background: @red_kilix;
 				}
 				&.design:after {
-					background: @yellow_kilix;;
+					background: @yellow_kilix;
 				}
+				&.fun:after {
+					background: @violet_kilix;
+				}
+				
 				&:hover,
 				&:focus {
 					color: white;
@@ -205,18 +209,6 @@ hr.small {
 						-ms-transform: translateY(0.3rem);
 						transform: translateY(0.3rem);
 						opacity: 0;
-					}
-					&.frontend:after {
-						background: @green_kilix;;
-					}
-					&.backend:after {
-						background: @blue_kilix;;
-					}
-					&.agilité:after {
-						background: @red_kilix;;
-					}
-					&.design:after {
-						background: @yellow_kilix;;
 					}
 
 					&:hover,
@@ -399,6 +391,12 @@ hr.small {
 			background-color: @yellow_kilix;
 			&:hover {
 				background-color: darken(@yellow_kilix, 10%);
+			}
+		}
+		&.fun {
+			background-color: @violet_kilix;
+			&:hover {
+				background-color: darken(@violet_kilix, 10%);
 			}
 		}
 	}
