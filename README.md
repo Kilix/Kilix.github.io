@@ -43,7 +43,11 @@ tags:       [ tag1, tag2, tag3, ...]
 ---
 ```
 [1] Si l'image se trouve en local, n'oubliez pas de l'ajouter dans le dossier `img`
+
 [2] Optionnel, vous pouvez ne pas renseigner cette ligne
+
+Catégories du blog: frontend, backend, agilité, fun, design
+
 * Ajoutez le contenu de l'article à la suite dans le fichier, n'oubliez pas de placer `<!--more-->` qui définit la limite de l'extrait de l'article qui apparaitra sur la page d'accueil du blog
 * Proposez votre article, et faites une requête pour le faire valider
 
