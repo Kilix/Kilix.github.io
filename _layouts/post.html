@@ -2,6 +2,24 @@
 layout: default
 ---
 
+{% assign post = page %}
+{% if post.tags.size > 0 %}
+    {% capture tags_content %}Tags {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %} : {% endcapture %}
+    {% for post_tag in post.tags %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
 <!-- Post Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
@@ -9,26 +27,24 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
                     <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
                     <span class="meta">
-                    Posté par {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} le 
-					{{ page.date | date: '%d' }} {% assign m = page.date | date: "%-m" %}
-					{% case m %}
-					  {% when '1' %}Janvier
-					  {% when '2' %}Février
-					  {% when '3' %}Mars
-					  {% when '4' %}Avril
-					  {% when '5' %}Mai
-					  {% when '6' %}Juin
-					  {% when '7' %}Juillet
-					  {% when '8' %}Août
-					  {% when '9' %}Septembre
-					  {% when '10' %}Octobre
-					  {% when '11' %}Novembre
-					  {% when '12' %}Décembre
-					{% endcase %} {{ page.date | date: '%Y' }}
+						Posté le 
+						{{ page.date | date: '%d' }} {% assign m = page.date | date: "%-m" %}
+						{% case m %}
+						  {% when '1' %}Janvier
+						  {% when '2' %}Février
+						  {% when '3' %}Mars
+						  {% when '4' %}Avril
+						  {% when '5' %}Mai
+						  {% when '6' %}Juin
+						  {% when '7' %}Juillet
+						  {% when '8' %}Août
+						  {% when '9' %}Septembre
+						  {% when '10' %}Octobre
+						  {% when '11' %}Novembre
+						  {% when '12' %}Décembre
+						{% endcase %} {{ page.date | date: '%Y' }}
+                   		 - par {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
                     </span>
                 </div>
             </div>
@@ -43,18 +59,51 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 				{{ content }}
-
+				
+				<hr>
+				
+				<p class="tags" id="post-meta">{{ tags_content }}</p>
+				<p class="category">Catégorie : <a href="/blog/category/{{ post.category }}">{{ post.category }}</a></p>
+                
+                <!-- AddToAny BEGIN -->
+				<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+					<a class="a2a_dd" href="https://www.addtoany.com/share_save"></a>
+					<a class="a2a_button_facebook"></a>
+					<a class="a2a_button_twitter"></a>
+					<a class="a2a_button_google_plus"></a>
+				</div>
+				<!-- AddToAny END -->
+                
+                {% for data_author in site.data.authors %}
+                	{% if data_author.name == post.author %}
+                		{% assign author = data_author %}
+                	{% endif %}
+                {% endfor %}
+                
+				{% if author %}
+					<div class="author">	
+						<span>
+							<img src="{{ author.img }}" alt="{{ author.name }}" class="author_img img-thumbnail">	
+						</span>
+						<span class="author_infos">
+							<strong>{{ author.name }}</strong>
+							<br>
+							<span class="author_job">{{ author.job }}</span>
+						</span>
+					</div>
+				{% endif %}
+				
                 <hr>
 
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Billet précédent</a>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; {{page.previous.title}}</a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Billet suivant &rarr;</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">{{page.next.title}} &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
@@ -63,5 +112,3 @@ layout: default
         </div>
     </div>
 </article>
-
-<hr>

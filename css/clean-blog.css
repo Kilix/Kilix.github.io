@@ -101,6 +101,17 @@ hr.small {
   transform: translateY(0);
   opacity: 1;
 }
+.navbar-custom .nav li.to_kilix {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navbar-custom .nav li.to_kilix a:hover,
+.navbar-custom .nav li.to_kilix a:focus {
+  color: #3a81ba;
+}
+.navbar-custom .nav li.to_kilix a:hover:after,
+.navbar-custom .nav li.to_kilix a:focus:after {
+  opacity: 0;
+}
 .navbar-custom .nav li a {
   color: white;
   padding: 0;
@@ -116,7 +127,6 @@ hr.small {
   width: 2px;
   left: -8px;
   top: 0;
-  background: #a8b7bf;
   content: " ";
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
@@ -124,6 +134,18 @@ hr.small {
   -ms-transform: translateX(-0.3rem);
   transform: translateX(-0.3rem);
   opacity: 0;
+}
+.navbar-custom .nav li a.front-end:after {
+  background: #009884;
+}
+.navbar-custom .nav li a.back-end:after {
+  background: #61aff0;
+}
+.navbar-custom .nav li a.agilité:after {
+  background: #ff4a46;
+}
+.navbar-custom .nav li a.design:after {
+  background: #f7c239;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -140,6 +162,10 @@ hr.small {
   .navbar-custom.is-top {
     background-color: #2c313f;
   }
+  .navbar-custom .nav li.to_kilix {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 0;
+  }
   .navbar-custom .nav li a:after {
     position: absolute;
     width: 100%;
@@ -147,7 +173,6 @@ hr.small {
     bottom: -1px;
     left: 0;
     top: inherit;
-    background: #a8b7bf;
     content: " ";
     -webkit-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
@@ -155,6 +180,18 @@ hr.small {
     -ms-transform: translateY(0.3rem);
     transform: translateY(0.3rem);
     opacity: 0;
+  }
+  .navbar-custom .nav li a.front-end:after {
+    background: #009884;
+  }
+  .navbar-custom .nav li a.back-end:after {
+    background: #61aff0;
+  }
+  .navbar-custom .nav li a.agilité:after {
+    background: #ff4a46;
+  }
+  .navbar-custom .nav li a.design:after {
+    background: #f7c239;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
@@ -178,6 +215,10 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
+.intro-header .container {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
@@ -199,6 +240,7 @@ hr.small {
 .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
@@ -217,6 +259,7 @@ hr.small {
 }
 .intro-header .post-heading h1 {
   font-size: 35px;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -248,6 +291,10 @@ hr.small {
 }
 .post-preview {
   padding-bottom: 20px;
+  position: relative;
+}
+.post-preview img {
+  margin: auto;
 }
 .post-preview > a {
   color: #434343;
@@ -259,8 +306,8 @@ hr.small {
 }
 .post-preview > a > .post-title {
   font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 60px;
+  margin-bottom: 0;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
@@ -282,21 +329,127 @@ hr.small {
   color: #3a81ba;
   text-decoration: underline;
 }
+.post-preview .title-category {
+  color: white;
+  float: right;
+  position: relative;
+  padding: 7px 16px 7px 36px;
+  text-transform: capitalize;
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
+.post-preview .title-category:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 21px solid transparent;
+  border-bottom: 21px solid transparent;
+  border-left: 21px solid white;
+}
+.post-preview .title-category.front-end {
+  background-color: #009884;
+}
+.post-preview .title-category.front-end:hover {
+  background-color: #006558;
+}
+.post-preview .title-category.back-end {
+  background-color: #61aff0;
+}
+.post-preview .title-category.back-end:hover {
+  background-color: #3297ec;
+}
+.post-preview .title-category.agilité {
+  background-color: #ff4a46;
+}
+.post-preview .title-category.agilité:hover {
+  background-color: #ff1813;
+}
+.post-preview .title-category.design {
+  background-color: #f7c239;
+}
+.post-preview .title-category.design:hover {
+  background-color: #f3b20a;
+}
 .post-preview .to_post {
   display: block;
   float: right;
   color: #3a81ba;
+  font-size: 16px;
 }
 .post-preview .to_post:hover {
   text-decoration: underline;
 }
 .post-preview p {
-  margin: 30px 0 0 0;
+  margin: 20px 0;
+}
+.post-preview h1,
+.post-preview h2,
+.post-preview h3,
+.post-preview h4,
+.post-preview h5,
+.post-preview h6 {
+  font-weight: 600;
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
+    max-width: 75%;
+    margin-top: 30px;
     font-size: 36px;
+    font-weight: 800;
   }
+  .post-preview .title-category {
+    top: 0;
+  }
+}
+article img {
+  margin: 15px auto;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+article p {
+  margin: 20px 0;
+}
+.tags,
+.category {
+  color: #3a81ba;
+  font-size: 16px;
+  margin: 0;
+}
+.category a {
+  text-transform: capitalize;
+}
+.a2a_kit {
+  margin-top: 15px;
+}
+.author {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 6px;
+  margin-top: 20px;
+  position: relative;
+}
+.author .author_img {
+  max-height: 100px;
+  margin: 0;
+}
+.author .author_infos {
+  position: absolute;
+  left: 112px;
+}
+.author .author_infos .author_job {
+  font-size: 18px;
 }
 .section-heading {
   font-size: 36px;
@@ -357,6 +510,8 @@ footer .block-align.contact-us > div {
   min-width: 190px;
 }
 footer .link_extia {
+  vertical-align: super;
+  padding-left: 2px;
   cursor: pointer;
 }
 footer .link_extia .logo_extia {
@@ -451,7 +606,6 @@ form .row:first-child .floating-label-form-group {
 .pager li > a,
 .pager li > span {
   font-family: 'Source Sans Pro', sans-serif;
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;

@@ -121,6 +121,18 @@ hr.small {
 			}
 		}
 		li {
+			&.to_kilix {
+				border-top: 1px solid rgba(255, 255, 255, 0.1);
+				a {
+					&:hover,
+					&:focus {
+						color: @brand-primary;
+						&:after {
+							opacity: 0;
+						}
+					}
+				}	
+			}
 			a {
 				color: white;
 				padding: 0;
@@ -136,7 +148,6 @@ hr.small {
 					width: 2px;
 					left: -8px;
 					top: 0;
-					background: #a8b7bf;
 					content: " ";
 					-webkit-transition: .3s ease-out;
 					transition: .3s ease-out;
@@ -144,6 +155,18 @@ hr.small {
 					-ms-transform: translateX(-0.3rem);
 					transform: translateX(-0.3rem);
 					opacity: 0;
+				}
+				&.front-end:after {
+					background: @green_kilix;;
+				}
+				&.back-end:after {
+					background: @blue_kilix;;
+				}
+				&.agilité:after {
+					background: @red_kilix;;
+				}
+				&.design:after {
+					background: @yellow_kilix;;
 				}
 				&:hover,
 				&:focus {
@@ -163,6 +186,10 @@ hr.small {
 		}
 		.nav {
 			li {
+				&.to_kilix {
+					border-left: 1px solid rgba(255, 255, 255, 0.1);
+					border-top: 0;	
+				}
 				a {
 					&:after {
 						position: absolute;
@@ -171,7 +198,6 @@ hr.small {
 						bottom: -1px;
 						left: 0;
 						top: inherit;
-						background: #a8b7bf;
 						content: " ";
 						-webkit-transition: .3s ease-out;
 						transition: .3s ease-out;
@@ -179,6 +205,18 @@ hr.small {
 						-ms-transform: translateY(0.3rem);
 						transform: translateY(0.3rem);
 						opacity: 0;
+					}
+					&.front-end:after {
+						background: @green_kilix;;
+					}
+					&.back-end:after {
+						background: @blue_kilix;;
+					}
+					&.agilité:after {
+						background: @red_kilix;;
+					}
+					&.design:after {
+						background: @yellow_kilix;;
 					}
 
 					&:hover,
@@ -206,6 +244,10 @@ hr.small {
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
 	margin-bottom: 50px;
+	.container {
+		background: rgba(0,0,0,.2);
+		width: 100%;
+	}
 	.site-heading,
 	.post-heading,
 	.page-heading {
@@ -221,6 +263,8 @@ hr.small {
 		h1 {
 			margin-top: 0;
 			font-size: 50px;
+			//text-transform: capitalize;
+			text-shadow: 4px 4px 0 rgba(0,0,0,.2);
 		}
 		.subheading {
 			font-size: 24px;
@@ -239,6 +283,7 @@ hr.small {
 	.post-heading {
 		h1 {
 			font-size: 35px;
+			text-shadow: 4px 4px 0 rgba(0,0,0,.2);
 		}
 		.subheading,
 		.meta {
@@ -275,6 +320,10 @@ hr.small {
 
 .post-preview {
 	padding-bottom: 20px;
+	position: relative;
+	img {
+		margin: auto;
+	}
 	> a {
 		color: @gray-dark;
 		&:hover,
@@ -284,8 +333,8 @@ hr.small {
 		}
 		> .post-title {
 			font-size: 30px;
-			margin-top: 30px;
-			margin-bottom: 10px;
+			margin-top: 60px;
+			margin-bottom: 0;
 		}
 		> .post-subtitle {
 			margin: 0;
@@ -308,27 +357,132 @@ hr.small {
 			}
 		}
 	}
+	.title-category {
+		color: white;
+		float: right;
+		position: relative;
+		padding: 7px 16px 7px 36px;
+		text-transform: capitalize;
+		position: absolute;
+		top: -50px;
+		right: 0;
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 0; 
+			height: 0; 
+			border-top: 21px solid transparent;
+			border-bottom: 21px solid transparent;
+			border-left: 21px solid white;
+		}
+		&.front-end {
+			background-color: @green_kilix;
+			&:hover {
+				background-color: darken(@green_kilix, 10%);
+			}
+		}
+		&.back-end {
+			background-color: @blue_kilix;
+			&:hover {
+				background-color: darken(@blue_kilix, 10%);
+			}
+		}
+		&.agilité {
+			background-color: @red_kilix;
+			&:hover {
+				background-color: darken(@red_kilix, 10%);
+			}
+		}
+		&.design {
+			background-color: @yellow_kilix;
+			&:hover {
+				background-color: darken(@yellow_kilix, 10%);
+			}
+		}
+	}
 	.to_post {
 		display: block;
 		float: right;
 		color: @brand-primary;
+		font-size: 16px;
 		&:hover {
 			text-decoration: underline;
 		}
 	}
 	p {
-		margin: 30px 0 0 0;
+		margin: 20px 0;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 600;
 	}
 	@media only screen and (min-width: 768px) {
 		> a {
 			> .post-title {
+				max-width: 75%;
+				margin-top: 30px;
 				font-size: 36px;
+				font-weight: 800;
 			}
+		}
+		.title-category {
+			top: 0;
 		}
 	}
 }
 
 // Sections
+
+article {
+	img {
+		margin: 15px auto;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 600;
+		margin-bottom: 0;
+	}
+	p {
+		margin: 20px 0;
+	}
+}
+
+.tags, .category {
+	color: @brand-primary;
+	font-size: 16px;
+	margin: 0;
+}
+.category {
+	a {
+		text-transform: capitalize;
+	}
+}
+
+.a2a_kit {
+	margin-top: 15px;	
+}
+
+.author {
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 6px;
+	margin-top: 20px;
+	position: relative;
+	.author_img {
+		max-height: 100px;
+		margin: 0;
+	}
+	.author_infos {
+		position: absolute;
+  		left: 112px;
+		.author_job {
+			font-size: 18px;
+		}
+	}
+}
+
+
 
 .section-heading {
 	font-size: 36px;
@@ -388,6 +542,8 @@ footer {
 		}
 	}
 	.link_extia {
+		vertical-align: super;
+		padding-left: 2px;
 		cursor: pointer;
 		.logo_extia {
 			width: 50px;
@@ -505,7 +661,6 @@ form .row:first-child .floating-label-form-group {
 		> a,
 		> span {
 			.sans-serif;
-			text-transform: uppercase;
 			font-size: 14px;
 			font-weight: 800;
 			letter-spacing: 1px;
