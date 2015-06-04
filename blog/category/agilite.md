@@ -1,6 +1,6 @@
 ---
 layout: blog_by_category
-title: 'agilité'
+title: 'Agilité'
 category: agilité
 permalink: /blog/category/agilité/
 ---

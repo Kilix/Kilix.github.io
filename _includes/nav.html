@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 				{% for category in site.categories %}
-					<li>
+					<li class="{% if page.category == category[0] %}active{% endif %}">
 						<a href="/blog/category/{{ category[0] }}" class="{{ category[0] }}">{{ category[0] }}</a>
 					</li>
 				{% endfor %}

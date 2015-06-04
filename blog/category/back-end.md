@@ -1,6 +1,6 @@
 ---
 layout: blog_by_category
-title: 'back-end'
+title: 'Back-End'
 category: back-end
 permalink: /blog/category/back-end/
 ---
