@@ -122,7 +122,6 @@ hr.small {
 		}
 		li {
 			&.to_kilix {
-				border-top: 1px solid rgba(255, 255, 255, 0.1);
 				a {
 					&:hover,
 					&:focus {
@@ -190,10 +189,6 @@ hr.small {
 		}
 		.nav {
 			li {
-				&.to_kilix {
-					border-left: 1px solid rgba(255, 255, 255, 0.1);
-					border-top: 0;	
-				}
 				a {
 					&:after {
 						position: absolute;
@@ -480,8 +475,6 @@ article {
 	}
 }
 
-
-
 .section-heading {
 	font-size: 36px;
 	margin-top: 60px;
@@ -687,6 +680,87 @@ form .row:first-child .floating-label-form-group {
 			color: @gray;
 			background-color: @gray-dark;
 			cursor: not-allowed;
+		}
+	}
+}
+
+// Search Bar
+
+.search-bar {
+	padding: 18px 20px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	
+	.search-container {
+		position: relative;
+		.search-input {
+			width: 150px;
+			font-size: 18px;
+			border: 0;
+			background-color: transparent;
+			color: white;
+			transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+			&:focus {
+				outline: inherit;
+			}
+			&.open {
+				width: 150px;
+			}
+		}
+		.search-button {
+			background-color: transparent;
+			border: 0;
+			padding: 2px 7px;
+			.fa {
+				color: white;
+			}
+			&:hover,
+			&:focus {
+				outline: inherit;
+			}
+		}
+		.results-container {
+			display: block;
+			z-index: 1;
+			background-color: #f8f8f8;
+			color: rgb(67, 67, 67);
+			width: 397px;
+			max-width: 100%;
+			position: absolute;
+			left: 0;
+			top: 50px;
+			list-style: inherit;
+			font-size: 15px;
+			padding-left: 5px;
+			li {
+				padding: 4px 0;
+				a {
+					color: rgb(67, 67, 67);
+					text-transform: none;
+					font-weight: 400;
+					letter-spacing: 0;
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+	
+	@media only screen and (min-width: 768px) {
+		border-top: 0;
+		border-bottom: 0;
+		border-left: 1px solid rgba(255, 255, 255, 0.1);
+		border-right: 1px solid rgba(255, 255, 255, 0.1);
+		
+		.search-container {
+			.search-input {
+				width: 0;
+			}
+			.results-container {
+				max-width: none;
+				display: none;
+				top: 52px;
+				left: -189px;
+			}
 		}
 	}
 }

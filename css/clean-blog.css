@@ -101,9 +101,6 @@ hr.small {
   transform: translateY(0);
   opacity: 1;
 }
-.navbar-custom .nav li.to_kilix {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
 .navbar-custom .nav li.to_kilix a:hover,
 .navbar-custom .nav li.to_kilix a:focus {
   color: #3a81ba;
@@ -164,10 +161,6 @@ hr.small {
   }
   .navbar-custom.is-top {
     background-color: #2c313f;
-  }
-  .navbar-custom .nav li.to_kilix {
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-    border-top: 0;
   }
   .navbar-custom .nav li a:after {
     position: absolute;
@@ -630,6 +623,81 @@ form .row:first-child .floating-label-form-group {
   color: #999999;
   background-color: #434343;
   cursor: not-allowed;
+}
+.search-bar {
+  padding: 18px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.search-bar .search-container {
+  position: relative;
+}
+.search-bar .search-container .search-input {
+  width: 150px;
+  font-size: 18px;
+  border: 0;
+  background-color: transparent;
+  color: white;
+  transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+}
+.search-bar .search-container .search-input:focus {
+  outline: inherit;
+}
+.search-bar .search-container .search-input.open {
+  width: 150px;
+}
+.search-bar .search-container .search-button {
+  background-color: transparent;
+  border: 0;
+  padding: 2px 7px;
+}
+.search-bar .search-container .search-button .fa {
+  color: white;
+}
+.search-bar .search-container .search-button:hover,
+.search-bar .search-container .search-button:focus {
+  outline: inherit;
+}
+.search-bar .search-container .results-container {
+  display: block;
+  z-index: 1;
+  background-color: #f8f8f8;
+  color: #434343;
+  width: 397px;
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  list-style: inherit;
+  font-size: 15px;
+  padding-left: 5px;
+}
+.search-bar .search-container .results-container li {
+  padding: 4px 0;
+}
+.search-bar .search-container .results-container li a {
+  color: #434343;
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-left: 5px;
+}
+@media only screen and (min-width: 768px) {
+  .search-bar {
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .search-bar .search-container .search-input {
+    width: 0;
+  }
+  .search-bar .search-container .results-container {
+    max-width: none;
+    display: none;
+    top: 52px;
+    left: -189px;
+  }
 }
 ::-moz-selection {
   color: white;
