@@ -53,7 +53,7 @@ Catégories du blog: frontend, backend, agilité, fun, design
 
 ##### Écrire en markdown
 
-* [Un éditeur](http://markable.in/editor/)
+* Éditeurs de markdown : [Markable](http://markable.in/editor/), [Dillinger](http://dillinger.io/)
 * [Conventions markdown](http://kramdown.gettalong.org/quickref.html) 
 * [Exemples de markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
