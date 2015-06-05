@@ -22,6 +22,16 @@
 						<a href="/blog/category/{{ category[0] }}" class="{{ category[0] }}">{{ category[0] }}</a>
 					</li>
 				{% endfor %}
+            	<li class="search-bar">
+            		<!-- Html Elements for Search -->
+					<div id="search-container" class="search-container">
+						<input type="text" id="search-input" class="search-input" placeholder="Rechercher...">
+						<button class="search-button">
+							<i class="fa fa-search"></i>
+						</button>
+						<ul id="results-container" class="results-container"></ul>
+					</div>          		
+            	</li>
 				<li class="to_kilix">
 					<a href="http://kilix.fr" target="_blank">kilix.fr</a>
 				</li>

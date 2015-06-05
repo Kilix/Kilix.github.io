@@ -39,3 +39,20 @@ $(document).ready(function($) {
             });
     }
 });
+
+// Search Bar
+$(document).ready(function () { 
+    $('.search-button').on('click', function(){
+		var input = $('.search-input');
+		if (input.hasClass('open')) {
+			input.removeClass('open');
+			$('.results-container').hide();
+		} else {
+			input.addClass('open');
+			input.focus();
+		}
+	});
+	$('.search-input').focusin(function(){
+		$('.results-container').show();
+	});
+});
