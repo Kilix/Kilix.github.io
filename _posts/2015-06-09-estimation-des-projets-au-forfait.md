@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Estimation des projets au forfait : la contractualisation itérative, une pise de reflexion"
+title:  "Estimation des projets au forfait : la contractualisation itérative, une piste de reflexion"
 date:   2015-06-09 17:00:00
 author: Sébastien Le Gall
 category: agilité
@@ -8,7 +8,7 @@ tags: [forfait, agilite, scrum, contrat]
 ---
 
 
-## L'état des projets informatique en 2015
+## L'état des projets informatiques en 2015
 
 Le [rapport Big Bang Boom](http://www.standishgroup.com/sample_research_files/BigBangBoom.pdf) publié en 2014 par le Standish Group met en exergue de façon très pragmatique la principale cause de l'échec d'un projet informatique :
 
