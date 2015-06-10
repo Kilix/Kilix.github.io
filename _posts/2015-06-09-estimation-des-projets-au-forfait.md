@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Estimation des projets au forfait : la contractualisation itérative, une piste de reflexion"
+title:  "Estimation des projets au forfait : la contractualisation itérative, une piste de réflexion"
 date:   2015-06-09 17:00:00
 author: Sébastien Le Gall
 category: agilité
