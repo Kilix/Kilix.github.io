@@ -30,7 +30,7 @@ On y constate que la réussite d'un projet informatique est un challenge que peu
 
 Néanmoins, la démocratisation, au fil des ans, des méthodes de gestion de projet permettent d'augmenter la qualité et de mieux tenir les engagements.
 
-<b>L'emergence de l'agilité, notamment, permet de réussir trois fois plus de projets</b> qu'en gestion de projet classique, dit cycle en V.
+<b>L'emergence de l'agilité, notamment, permet de réussir trois fois plus de projets</b> qu'en gestion de projet classique, dite cycle en V.
 
 ![RSE]({{ site.url }}/img/Agile-Waterfall-Success-Failure-Rates.jpg)
 
@@ -52,7 +52,7 @@ Il s'agit de contractualiser, non pas un périmètre, mais un certain nombre de 
 
 Cette approche Agile de l'aspect contractuel permet de gagner en flexibilité sur le périmètre et donc, conformément à la logique Agile, de pouvoir s'adapter à l'évolution du besoin des utilisateurs finaux. C'est cette logique de type "gestion par le <i>product backlog</i>", [décrite en détail](http://www.staub-associes.com/wp-content/uploads/2014/04/methode_agile.pdf) par le cabinet d'avocat Staub & Associé spécialisé dans l'IT qui, aujourd'hui, tend à se démocratiser.
 
-Mais quand bien même on s'assure de travailler dans un cadre où la charge est fixée d'avance, reste une problématique sousjacente : l'estimation du temps à passer ou de la complexité.
+Mais quand bien même on s'assure de travailler dans un cadre où la charge est fixée d'avance, reste une problématique sous-jacente : l'estimation du temps à passer ou de la complexité.
 
 En effet, si la gestion d'un projet par le <i>product backlog</i> permet de résoudre la contrainte de périmètre, deux questions se posent :
 
@@ -61,7 +61,7 @@ En effet, si la gestion d'un projet par le <i>product backlog</i> permet de rés
 
 ## Peut-on vraiment estimer la complexité d'un projet / d'une feature ?
 
-Travailler au forfait, et ce, que l'on soit habitué à travailler en cycle en V classique ou en Agilité, cela implique d'être capable de déterminer en amont la charge de travail nécessaire au développement d'un périmètre fourni par le client.
+Travailler au forfait, et ce, que l'on soit habitué à travailler en cycle en V classique ou en Agilité, implique d'être capable de déterminer en amont la charge de travail nécessaire au développement d'un périmètre fourni par le client.
 
 Mais, l'expérience prouve que dans ce domaine, les chances de succès sont infimes.
 
@@ -80,20 +80,21 @@ Selon Dan Milstein, qui s'inspire largement du livre Thinking, Fast and Slow de 
 - Le niveau de détail des spécifications n'est jamais suffisant, sauf à écrire l'application directement;
 - La niveau de confiance des développeurs / experts dans leur capacité à résoudre un problème en tenant compte des expériences passées est toujours trop élevée;
 
-Et, pour ma part, il existe une troisième raison que l'article ne relate pas : 
+Et, pour ma part, il existe une troisième raison que l'article ne relate pas :
+
 - La sous-estimation du bruit qui freine les développements : réunion, aller-retour avec le client, etc.
 
 Reste que, en mode forfaitaire, même si les US sont découpées et estimées de façon itérative, le contrat prévoit, en général, une dead-line fixée à partir d'une estimation globale du projet. Et souvent, <b>le décalage entre l'estimation globale et l'estimation des sprints est énorme</b>.
 
-Par ailleurs, outre le respect des dead-lines, sur des projets complexes où le développement d'un MVP s'étens sur plusieurs mois, voire plusieurs années, <b>le manque de visibilité tant sur les futures fonctionnalités que sur la date de mise en production qui semble reculer à chaque sprint, est un facteur de démotivation de l'équipe</b>.
+Par ailleurs, outre le respect des dead-lines, sur des projets complexes où le développement d'un MVP s'étend sur plusieurs mois, voir plusieurs années, <b>le manque de visibilité tant sur les futures fonctionnalités que sur la date de mise en production qui semble reculer à chaque sprint, est un facteur de démotivation de l'équipe</b>.
 
-Enfin, côté client, quand le nombre d'US à embarquer dans un MVP est si grand, la visibilité et la motivation diminuent aussi très fortement, aboutissant ainsi à des situations illogiques où l'équipe de développement se concentre à faire de la refactorisation et de l'optimisation car le Product Owner n'a pas fourni de spécifications pour le sprint. Ou, plus anodin encore, <b>il s'avère parfois que, le Product Owner lui-même n'aurait pas pu tenir les délais de livraison, ne serait-ce que pour spécifier les fonctionnalités</b> ou pour recetter.
+Enfin, côté client, quand le nombre d'US à embarquer dans un MVP est si grand, la visibilité et la motivation diminuent aussi très fortement, aboutissant ainsi à des situations illogiques où l'équipe de développement se concentre à faire de la refactorisation et de l'optimisation car le Product Owner n'a pas fourni de spécifications pour le sprint. Ou, plus anodin encore, <b>il s'avère parfois que le Product Owner lui-même n'aurait pas pu tenir les délais de livraison, ne serait-ce que pour spécifier les fonctionnalités</b> ou pour recetter.
 
 ## Un contrat itératif de développement du MVP, une piste de réflexion pour garantir la visibilité sur les engagements du prestataire et du client
 
 S'il faut retenir une leçon de l'expérience des projets sur lesquels Kilix s'est engagé, c'est la suivante :
 
-> La tenue des engagements forfaitaire est proportionnel à la visibilité
+> La tenue des engagements forfaitaire est proportionnelle à la visibilité
 
 Et cette visibilité doit être maximisée tant sur le développement des <i>features</i> que sur les spécifications et sur les feedback utilisateurs. C'est à dire en somme, être capable de :
 
@@ -106,6 +107,7 @@ Cela implique d'engager contractuellement, non seulement le prestataire sur sa c
 Et sur ce point, <b>la gestion par le <i>product backlog</i> ne résout pas toujours la question de la visibilité</b>. Quelle visibilité peut-on avoir sur un fichier de 500 lignes (US)? Quelle visibilité peut-on avoir sur une fonctionnalité résumée en 1 ligne d'un fichier?
 
 Afin de répondre à ces enjeux de visibilité, une piste de réflexion pourrait être une contractualisation itérative avec :
+
 - <b>Un engagement sur une complexité suffisamment petite</b> ou, à défaut, un engagement sur un périmètre suffisamment petit (une ou deux épics, par exemple);
 - <b>Un engagement sur un délais suffisamment court</b> (trois où quatres itérations);
 - <b>Un engagement sur le coût</b> d'une itération.
