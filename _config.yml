@@ -1,11 +1,11 @@
 # Site settings
 title: Space Warp of Amazing Stuff
 header-img: img/photo-header.jpg
-email: your-email@yourdomain.com
+email: contact@kilix.fr
 description: "Write your site description here. It will be used as your sites meta description as well!"
 logo: /img/kilix-logo-blog.png
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://blog.kilix.fr"
 
 github_username:  Kilix
 
