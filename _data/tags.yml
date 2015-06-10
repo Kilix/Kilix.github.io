@@ -14,3 +14,9 @@
   name: PHP
 - slug: phpunit
   name: PhpUnit
+- slug: agilite
+  name: Agilité
+- slug: forfait
+  name: Forfait
+- slug: contrat
+  name: Contrat
