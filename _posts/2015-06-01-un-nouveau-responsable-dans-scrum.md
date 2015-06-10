@@ -10,26 +10,25 @@ tags: [scrum, us, product-owner, specification]
 
 Lorsque vous êtes ScrumMaster, l’une des plus grandes difficultés est la responsabilisation de l’équipe technique. 
 
-Chez Kilix, l’environnement dans lequel nous évoluons est complexe avec peu d’adhérence avec l’ agilité. 
-L’une des principales contraintes se situe dans la gestion de contractuelle en mode forfaitaire. 
+Chez Kilix, l’environnement dans lequel nous évoluons est complexe avec peu d’adhérence avec l’agilité. 
+L’une des principales contraintes se situe dans la gestion contractuelle en mode forfaitaire. 
 Ce type de contrat nous impose de devoir respecter le triptyque coût / délais / périmètre qui ne tient pas compte de la qualité et n'a aucune gestion par la valeur.
 
 L’engagement de l’équipe de développement devient alors stratégique pour réussir nos projets.
-<!--more-->
-Mais cet engagement est fragile. Il s'éffrite rapidement devant le manque d'expérience du product owner.
-Et c'est normal! Dans la plus des cas, nos client qui apportent leur expertise métier sur le projet et "joue" le rôle de product owner.
+Mais cet engagement est fragile. Il s'effrite rapidement devant le manque d'expérience du product owner.
+Et c'est normal! En général, nos clients apportent leur expertise métier sur le projet et "joue" le rôle de product owner.
 
 De nombreuses dérives apparaissent :
-
 * Perte de motivation devant des soucis de spécification
 * US mal livrées dans leur environnement de test et mal recettées
+* Augmentation de la fracture "client / prestataire"
 * etc…
 
 Évidemment, toutes ces problématiques nuisent à la productivité et augmentent les frustrations ce qui finit par désengager l'équipe.
 
-Dans ce contexte, il m’a semblé logique de prendre une mesure impopulaire (comme beaucoup au début) : imposer le rôle de responsable des user stories dès leur création dans le backlog aux développeurs.
+Dans ce contexte, il m’a semblé logique de prendre une mesure impopulaire (comme beaucoup au début) : imposer aux développeurs le rôle de responsable des user stories dès leur création dans le backlog.
 
-Évidemment, la stratégie n’était pas définitive, mais soumise à l’approbation de l’équipe dans la durée avec feeback et amélioration continue. Fail fast!
+Évidemment, la stratégie n’était pas définitive, mais soumise à l’approbation de l’équipe dans la durée dans une logique d'amélioration continue par le biais des feedbacks. Fail fast!
 
 Voici une vision macro de ces tâches sous forme de workflow :
 
@@ -39,8 +38,8 @@ Voici une vision macro de ces tâches sous forme de workflow :
 4. **ANOMALIE**: Suivi des remontées d’anomalie
 5. **DÉMONSTRATION**: Le responsable doit démontrer son US lors de la démonstration (activité SCRUM)
 
-L’application de ce workflow à pour avantage:
 
+L’application de ce workflow à pour avantage:
 * Fluidifier le worflow global des US
 * Amplifier la responsabilisation naturelle
 * Maîtriser fonctionnelle du produit
@@ -54,3 +53,5 @@ Nos équipes de développement ont pris la mesure de ce rôle et constatent eux 
 Par le biais des rétrospectives, ce nouveau rôle sera amélioré et deviendra certainement incontournable.
 L’agilité permet de s’adapter aux différentes contraintes de son environnement.
 Profitons-en et innovons ensemble ! :)
+
+FEEDBACK : Ce rôle est devenu naturel pour toutes les équipes. Il fait maintenant partie intégrante de notre framework.
