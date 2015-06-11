@@ -16,7 +16,7 @@ Ce type de contrat nous impose de devoir respecter le triptyque coût / délais 
 
 L’engagement de l’équipe de développement devient alors stratégique pour réussir nos projets.
 Mais cet engagement est fragile. Il s'effrite rapidement devant le manque d'expérience du product owner.
-Et c'est normal! En général, nos clients apportent leur expertise métier sur le projet et "joue" le rôle de product owner.
+Et c'est normal! En général, nos clients apportent leur expertise métier sur le projet et "jouent" le rôle de product owner.
 
 De nombreuses dérives apparaissent :
 * Perte de motivation devant des soucis de spécification
@@ -39,10 +39,10 @@ Voici une vision macro de ces tâches sous forme de workflow :
 5. **DÉMONSTRATION**: Le responsable doit démontrer son US lors de la démonstration (activité SCRUM)
 
 
-L’application de ce workflow à pour avantage:
+L’application de ce workflow a pour avantage:
 * Fluidifier le worflow global des US
 * Amplifier la responsabilisation naturelle
-* Maîtriser fonctionnelle du produit
+* Maîtriser fonctionnellement le produit
 * Créer une assistance naturelle au product owner
 * Augmenter le nombre de propositions d’optimisation de la part de l’équipe de développement
 * Synergie humaine et “technico fonctionnelle”.
