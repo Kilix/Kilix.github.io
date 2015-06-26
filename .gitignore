@@ -5,3 +5,6 @@ _site/*
 #*
 *#
 *~
+blog/category/_site/*
+blog/tag/_site/*
+*.db
