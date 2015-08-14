@@ -22,7 +22,7 @@ Premiers pas de Flux
 ------------------------
 
 Cela nous amène donc à Flux, qui est l’architecture d’application utilisée chez Facebook.
-Attention, Flux n’est pas une librairie, mais un pattern. Aujourd’hui il y a près d’une vingtaine d’implémentations Flux. Je ne vais pas rentrer en profondeur dans ce qui a amené Facebook a créé ce pattern, ni détailler l'obsolescence du modèle MVC (*troll spotted*), mais plutôt faire un topo sur l’évolution de flux, d’après mon observation, depuis sa création jusqu’à aujourd’hui.
+Attention, Flux n’est pas une librairie, mais un pattern. Aujourd’hui il y a près d’une vingtaine d’implémentations Flux. Je ne vais pas rentrer en profondeur dans ce qui a amené Facebook à créér ce pattern, ni détailler l'obsolescence du modèle MVC (*troll spotted*), mais plutôt faire un topo sur l’évolution de flux, d’après mon observation, depuis sa création jusqu’à aujourd’hui.
 
 On peut résumer Flux par ce schéma ci-dessous :
 
