@@ -43,7 +43,7 @@ hr.small {
 }
 
 hr{
-  margin: 4em 0;
+  margin: 3.5em 0;
 }
 
 @media (min-width: 768px) {
@@ -236,7 +236,7 @@ hr{
 .intro-header .page-heading .subheading {
   font-size: 24px;
   line-height: 1.1,
-			display: block;
+  display: block;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
@@ -431,12 +431,9 @@ article p {
   margin-top: 15px;
 }
 .author {
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
-  border-radius: 3px;
   padding: 6px;
-  margin-top: 20px;
   position: relative;
+  display: flex;
 }
 .author .author_img {
   max-height: 100px;
@@ -444,10 +441,29 @@ article p {
 }
 .author .author_infos {
   position: absolute;
-  left: 112px;
+left: 130px;
+font-size: 25px;
+font-weight: 300;
+top: 10px;
+}
+
+.author_infos strong{
+  font-weight: 600;
+}
+
+.img-thumbnail{
+  display: inline-block;
+max-width: 100%;
+height: auto;
+padding: 4px;
+line-height: 1.42857143;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 50%;
 }
 .author .author_infos .author_job {
   font-size: 18px;
+    display: block;
 }
 .section-heading {
   font-size: 36px;
