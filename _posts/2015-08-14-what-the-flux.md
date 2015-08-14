@@ -10,7 +10,7 @@ tags: [react]
 ---
 
 
-Chez Kilix, nous avons récemment choisi la librairie [React](http://facebook.github.io/react/) pour la refonte du CRM d’[Extia](https://medium.com/@bulby97/je-vais-dans-cet-article-detailler-la-facon-dont-le-site-extia-v2-a-ete-developpe-et-ce-dun-3bcf7946dbc3), Vamos. Je ne vais pas cacher mon excitation face à une technologie telle que React. Cela nous ouvre des possibilités jusqu’alors peu explorées en Javascript, tels que la programmation fonctionnelle et donc le principe d'immutabilité. Une fois le changement de paradigme maîtrisé, c’est un vrai plaisir de coder en React.
+Chez Kilix, nous avons récemment choisi la librairie [React](http://facebook.github.io/react/) pour la refonte du CRM d’[Extia](https://medium.com/@bulby97/je-vais-dans-cet-article-detailler-la-facon-dont-le-site-extia-v2-a-ete-developpe-et-ce-dun-3bcf7946dbc3), Vamos. Je ne vais pas cacher mon excitation face à une technologie telle que React. Cela nous ouvre des possibilités jusqu’alors peu explorées en Javascript, telles que la programmation fonctionnelle et donc le principe d'immutabilité. Une fois le changement de paradigme maîtrisé, c’est un vrai plaisir de coder en React.
 
 React n’est que la partie vue de l’application, un peu comme le V de MVC, et de ce fait, nous sommes livrés à nous même pour l’architecture de l’application. En effet un des problèmes majeurs avec une librairie UI comme React, ce sont les mille et une façons de structurer son code et de gérer l’architecture applicative. On se retrouve rapidement perdu dans les méandres d’Internet, écumant chaque article afin de trouver la meilleure façon d’aborder une problématique.  J’ai eu l’occasion de faire un workshop React que vous pourrez retrouver sur [slides.com](http://slides.com/bulby97/workshop-reactnstuff).
 
@@ -182,7 +182,7 @@ Vous pouvez voir une implémentation des cursors sur l'ancienne version d'[Este.
 Les reducers
 ---------------
 
-En javascript le code pour mettre à jour via les cursors est assez verbeux. De plus les stores sont assez difficiles (voir impossibles) à tester sans hack.
+En javascript le code pour mettre à jour via les cursors est assez verbeux. De plus les stores sont assez difficiles (voire impossibles) à tester sans hack.
 
 Un nouveau pattern a fait surface récemment, et il a été mis en lumière par [Dan Abramov](https://github.com/gaearon) lors de la React Europe, ce sont **[les reducers](http://gaearon.github.io/redux/docs/basics/Reducers.html)**. J’ai d’abord eu connaissance de ce pattern sur la devstack que nous utilisons aujourd’hui sur Vamos, créée par [Daniel Steigerwald](https://github.com/steida). Un des gros avantages de ce pattern par rapport aux cursors est sa simplicité de compréhension et de mise en place. Les reducers sont des fonctions pures prenant en paramètres le state précédent et l’action, puis renvoient un nouveau state modifié, exactement comme la fonction [\[\].reduce() sur les tableaux](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce).
 
@@ -242,4 +242,4 @@ Conclusion
 --------------
 
 
-Quelques lignes plus haut, j’ai parlé de la devstack que nous utilisons sur Vamos. Je vous laisse jeter un oeil à [Este.js](https://github.com/este/este), qui a mes yeux, est aujourd’hui le meilleur starter kit pour construire des apps isomorphiques React/Flux avec les best practices existantes. D'ailleurs il y a aura bientôt un nouvel article sur Este.js, keep in touch ;).
+Quelques lignes plus haut, j’ai parlé de la devstack que nous utilisons sur Vamos. Je vous laisse jeter un oeil à [Este.js](https://github.com/este/este), qui à mes yeux, est aujourd’hui le meilleur starter kit pour construire des apps isomorphiques React/Flux avec les best practices existantes. D'ailleurs il y aura bientôt un nouvel article sur Este.js, keep in touch ;).
