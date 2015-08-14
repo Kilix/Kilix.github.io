@@ -21,7 +21,6 @@ h6 {
   font-weight: 600;
 }
 a {
-  color: #434343;
 }
 a:hover,
 a:focus {
@@ -219,7 +218,7 @@ hr{
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 400px 0 100px 0;
   }
 }
 .intro-header .site-heading,

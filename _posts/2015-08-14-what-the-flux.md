@@ -10,7 +10,7 @@ tags: [react]
 ---
 
 
-Chez Kilix, nous avons récemment choisi la librairie [React](http://facebook.github.io/react/) pour la refonte du CRM d’[Extia](https://medium.com/@bulby97/je-vais-dans-cet-article-detailler-la-facon-dont-le-site-extia-v2-a-ete-developpe-et-ce-dun-3bcf7946dbc3), Vamos. Je ne vais pas cacher mon excitation face à une technologie telle que React. Cela nous ouvre des possibilités jusqu’alors peu explorées en Javascript, tels que l’immutabilité ou la programmation fonctionnelle. Une fois le changement de paradigme maîtrisé, c’est un vrai plaisir de coder en React.
+Chez Kilix, nous avons récemment choisi la librairie [React](http://facebook.github.io/react/) pour la refonte du CRM d’[Extia](https://medium.com/@bulby97/je-vais-dans-cet-article-detailler-la-facon-dont-le-site-extia-v2-a-ete-developpe-et-ce-dun-3bcf7946dbc3), Vamos. Je ne vais pas cacher mon excitation face à une technologie telle que React. Cela nous ouvre des possibilités jusqu’alors peu explorées en Javascript, tels que la programmation fonctionnelle et donc le principe d'immutabilité. Une fois le changement de paradigme maîtrisé, c’est un vrai plaisir de coder en React.
 
 React n’est que la partie vue de l’application, un peu comme le V de MVC, et de ce fait, nous sommes livrés à nous même pour l’architecture de l’application. En effet un des problèmes majeurs avec une librairie UI comme React, ce sont les mille et une façons de structurer son code et de gérer l’architecture applicative. On se retrouve rapidement perdu dans les méandres d’Internet, écumant chaque article afin de trouver la meilleure façon d’aborder une problématique.  J’ai eu l’occasion de faire un workshop React que vous pourrez retrouver sur [slides.com](http://slides.com/bulby97/workshop-reactnstuff).
 
@@ -75,7 +75,7 @@ Cela change **énormément** du modèle UI traditionnel ou plusieurs composants 
 ###Une single source of truth. Un seul state. :’). <br>C’est un changement de paradigme tellement énorme.
 
 ![enter image description here](http://media.topito.com/wp-content/uploads/2014/03/EMrknJP.gif)
-[https://www.youtube.com/watch?v=9CS7j5I6aOc](https://www.youtube.com/watch?v=9CS7j5I6aOc)
+<center>[Ou encore ici :D](https://www.youtube.com/watch?v=9CS7j5I6aOc)</center>
 
 --------------------
 
@@ -131,7 +131,7 @@ Avec les cursors, les dépendances des composants sont spécifiées dans le comp
 ----------------
 
 
-Toutes ces idées en ClojureScript ont inspiré quelques libs en Javascript. On notera principalement Omniscient.js, Baobab.js, Morearty et React Cursors.
+Toutes ces idées en ClojureScript ont inspiré quelques libs en Javascript. On notera principalement [Omniscient.js](http://omniscientjs.github.io/), [Baobab.js](https://github.com/Yomguithereal/baobab), [Morearty](https://github.com/moreartyjs/moreartyjs) et [React Cursors](https://github.com/dustingetz/react-cursor).
 
 ####Examples de cursors dans un store
 ~~~ javascript
@@ -223,7 +223,7 @@ export default function(state = initialState, action, payload) {
 Les trois best-practices ci-dessus sont les trois principes fondamentaux de [Redux](https://github.com/gaearon/redux), la librairie la plus connue à ce jour utilisant les reducers.
 
 
-Personnellement, je trouve cela assez dommage de perdre l’avantage que les cursors nous apportaient au niveau des composants. Malgré tout il y a un moyen moins verbeux de passer les props dans l’arbre de composants en utilisant [l'opérateur spread en ES6](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateur_de_d%C3%A9composition) :
+Personnellement, je trouve cela assez dommage de perdre l’avantage que les cursors nous apportaient au niveau des composants, d'autres au contraire trouvent cette pratique plutôt [explicite](https://github.com/este/este#why-este-is-pure-and-why-we-have-to-pass-data-through-props). Malgré tout il y a un moyen moins verbeux de passer les props dans l’arbre de composants en utilisant [l'opérateur spread en ES6](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateur_de_d%C3%A9composition) :
 
 ~~~
 <App>
@@ -237,8 +237,9 @@ Personnellement, je trouve cela assez dommage de perdre l’avantage que les cur
 </App>
 ~~~
 
+
 Conclusion
 --------------
 
 
-Quelques lignes plus haut, j’ai parlé de la devstack que nous utilisons sur Vamos. Je vous laisse jeter un oeil à [Este.js](https://github.com/este/este), qui a mes yeux, est aujourd’hui le meilleur starter kit pour construire des apps isomorphiques React/Flux avec les best practices existantes.
+Quelques lignes plus haut, j’ai parlé de la devstack que nous utilisons sur Vamos. Je vous laisse jeter un oeil à [Este.js](https://github.com/este/este), qui a mes yeux, est aujourd’hui le meilleur starter kit pour construire des apps isomorphiques React/Flux avec les best practices existantes. D'ailleurs il y a aura bientôt un nouvel article sur Este.js, keep in touch ;).
