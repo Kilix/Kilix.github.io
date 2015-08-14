@@ -20,3 +20,5 @@
   name: Forfait
 - slug: contrat
   name: Contrat
+- slug: react
+  name: React

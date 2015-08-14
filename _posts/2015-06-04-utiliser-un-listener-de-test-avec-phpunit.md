@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Utiliser un listener de test avec PhpUnit"
+description: "Si vous avez déjà utilisé PHPUnit, vous avez forcément en tête la succession de points qui s'affichent dans la console pour signifier que les tests passent. Sans doute aussi avez-vous l'habitude de vous ronger les ongles de peur qu'un joli F rouge apparaisse."
 date:   2015-06-04 14:49:34
 author: Sébastien Le Gall
 category: backend
@@ -31,7 +32,7 @@ Il suffit pour cela de rajouter une balise à n'importe quel endroit du fichier 
 <listeners>
    <listener class="SlackListner" file="slackListner.php"/>
 </listeners>
-~~~   
+~~~
 
 Dans Symfony2, ce fichier se trouve dans le répertoire app/. On déclare ici le nom de la classe et le fichier qui contient sa déclaration.
 
@@ -67,7 +68,7 @@ class SlackListener implements PHPUnit_Framework_TestListener
 
     public function addFailure(PHPUnit_Framework_Test $test, PHPUnit_Framework_AssertionFailedError $e, $time)
     {
- 
+
         $this->sendMessage();
     }
 

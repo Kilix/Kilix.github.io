@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "L’Agilité aurait-elle pu sauver ce personnage de Game Of Thrones ?"
+description: "La garde de serait-elle arrivée à ces actions radicales si le précédent détenteur du titre, Jon Snow, fils bâtard de Lord Eddard Stark, avait recouru à l'Agilité lors de son occupation de poste ?"
 date:   2015-07-01 18:28:54
 author: Axel Venet
 category: agilité

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "L’humain, la clé pour réussir son projet"
+description: "Afin de maximiser les chances de réussite d’un projet, qu’il soit technique ou non, il est vital que l’équipe responsable de ce projet soit motivée à le réaliser. Il s’agit du facteur fondamental afin de livrer un projet de qualité en absorbant au mieux les “coups”."
 date:   2015-06-01 14:49:34
 author: Nicolas Poitelon
 category: agilité

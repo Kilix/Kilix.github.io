@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Estimation des projets au forfait : la contractualisation itérative, une piste de réflexion"
+description: "L'état des projets informatiques en 2015"
 date:   2015-06-09 17:00:00
 author: Sébastien Le Gall
 category: agilité
@@ -48,7 +49,7 @@ La logique forfaitaire classique impose trois éléments :
 
 Avec la démocratisation de l'Agilité, certains de ces postulats tendent à être remis en cause. On assiste dès lors à l'émergence de nouveaux types de contrat introduisant une dose de flexibilité, notamment sur le périmètre.
 
-Il s'agit de contractualiser, non pas un périmètre, mais un certain nombre de points de complexité. On travaille donc à complexité constante. Et <b>toute évolution du périmètre doit s'inscrire dans une logique de "priorisation" des nouvelles fonctionnalités</b>. Quand la limite de points de complexité est atteinte, le projet s'arrête. Par ailleurs, si l'on ajoute la contrainte de délais, cela nécessite de la part du prestataire de s'engager aussi sur une capacité de production par sprint et donc aussi, sur un coût. 
+Il s'agit de contractualiser, non pas un périmètre, mais un certain nombre de points de complexité. On travaille donc à complexité constante. Et <b>toute évolution du périmètre doit s'inscrire dans une logique de "priorisation" des nouvelles fonctionnalités</b>. Quand la limite de points de complexité est atteinte, le projet s'arrête. Par ailleurs, si l'on ajoute la contrainte de délais, cela nécessite de la part du prestataire de s'engager aussi sur une capacité de production par sprint et donc aussi, sur un coût.
 
 Cette approche Agile de l'aspect contractuel permet de gagner en flexibilité sur le périmètre et donc, conformément à la logique Agile, de pouvoir s'adapter à l'évolution du besoin des utilisateurs finaux. C'est cette logique de type "gestion par le <i>product backlog</i>", [décrite en détail](http://www.staub-associes.com/wp-content/uploads/2014/04/methode_agile.pdf) par le cabinet d'avocat Staub & Associé spécialisé dans l'IT qui, aujourd'hui, tend à se démocratiser.
 

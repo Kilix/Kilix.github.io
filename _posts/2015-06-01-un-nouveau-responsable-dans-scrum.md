@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Un nouveau responsable dans SCRUM !"
+description: "Lorsque vous êtes ScrumMaster, l’une des plus grandes difficultés est la responsabilisation de l’équipe technique."
 date:   2015-06-01 14:49:34
 author: Nicolas Poitelon
 category: agilité
@@ -8,10 +9,10 @@ tags: [scrum, us, product-owner, specification]
 ---
 ![RSE](http://agile4manager.com/wp-content/uploads/2014/09/rse.jpg)
 
-Lorsque vous êtes ScrumMaster, l’une des plus grandes difficultés est la responsabilisation de l’équipe technique. 
+Lorsque vous êtes ScrumMaster, l’une des plus grandes difficultés est la responsabilisation de l’équipe technique.
 
-Chez Kilix, l’environnement dans lequel nous évoluons est complexe avec peu d’adhérence avec l’agilité. 
-L’une des principales contraintes se situe dans la gestion contractuelle en mode forfaitaire. 
+Chez Kilix, l’environnement dans lequel nous évoluons est complexe avec peu d’adhérence avec l’agilité.
+L’une des principales contraintes se situe dans la gestion contractuelle en mode forfaitaire.
 Ce type de contrat nous impose de devoir respecter le triptyque coût / délais / périmètre qui ne tient pas compte de la qualité et n'a aucune gestion par la valeur.
 
 L’engagement de l’équipe de développement devient alors stratégique pour réussir nos projets.

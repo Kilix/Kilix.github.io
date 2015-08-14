@@ -1,7 +1,7 @@
 - name: Nicolas Poitelon
   job: Head of Kilix
   img: http://agile4manager.com/wp-content/uploads/2014/08/3dcc945.jpg
-  
+
 - name: Tristan Martin
   job: Scrum Master
   img: https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/0b0/234/109f0ca.jpg
@@ -10,10 +10,14 @@
   job: Scrum Master @ Kilix
   img: https://pbs.twimg.com/profile_images/2150643952/295370_10151388603380456_578445455_23373638_737472719_n_400x400.jpg
 
+- name: Stéphane Montlouis-Calixte
+  job: Front-end developer
+  img: https://raw.githubusercontent.com/bulby97/Kilix/master/img/stephane.png
+
 - name: Olivier PASCAL
   job: Front-end developer
   img: https://fr.gravatar.com/userimage/54179325/1510512c7f1bdd9c6e71d67df109720c.png
+
 - name: Romain MAGRI
   job: UI/UX Designer
   img: https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11026261_10204948804693764_640950501664968955_n.jpg?oh=eb564f0f86a6568360b9a781e7bd9560&oe=55EAA11C
-  
