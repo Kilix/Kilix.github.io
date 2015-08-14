@@ -10,7 +10,7 @@ url: "http://blog.kilix.fr"
 github_username:  Kilix
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 paginate: 5
