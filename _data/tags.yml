@@ -22,3 +22,9 @@
   name: Contrat
 - slug: react
   name: React
+- slug: backend
+  name: Back-End
+- slug: security
+  name: Sécurité
+- slug: access-control
+  name: Contrôle des accès
