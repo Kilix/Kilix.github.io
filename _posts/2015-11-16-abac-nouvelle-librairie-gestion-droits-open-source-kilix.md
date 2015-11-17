@@ -11,12 +11,12 @@ tags: [backend, security, access-control]
 
 Aujourd'hui, Kilix publie sur Github son premier projet open-source ([lien ici](https://github.com/Kilix/php-abac)).
 
-Celui-ci consiste en l'implémentation d'un concept de gestion d'accès : ABAC (Attribute-Based Access-Control).
+Celui-ci consiste en l'implémentation en PHP d'un concept de gestion d'accès : ABAC (Attribute-Based Access-Control).
 
 <!--more-->
 
 Au cours de notre vie d'agence et de nos projets, nous avions flirté avec un concept voisin : RBAC (Role-Based Access-Control).
-Une des [principales librairies PHP implémentant RBAC](https://github.com/OWASP/rbac), que nous avons donc utilisé, emploie deux arbres hiérarchiques distincts :
+Une des [principales librairies PHP implémentant RBAC](https://github.com/OWASP/rbac), que nous avons donc testé, emploie deux arbres hiérarchiques distincts :
 l'un dédié aux rôles tandis que l'autre à des permissions.
 Un rôle pouvait ensuite être lié à une ou plusieurs permissions.
 L'application intégrant RBAC contrôle ensuite que l'utilisateur dispose bien d'une permission donnée au travers des rôles qui lui sont assignés.
@@ -24,11 +24,11 @@ L'application intégrant RBAC contrôle ensuite que l'utilisateur dispose bien d
 <img src="http://phprbac.net/img/rbac.png" alt="Drawing" style="width: 600px;"/>
 
 Cependant, au sein de nos projets, le thème de la gestion des droits a été fortement challengé par des besoins métiers très spécifiques.
-Se baser sur la possession d'une permission pour déterminer l'accès à une ressource ou à une action n'était pas suffisant pour répondre à ces besoins.
+Se baser uniquement sur la possession d'une permission pour déterminer l'accès à une ressource ou à une action n'était pas suffisant pour répondre à ces besoins.
 Nous avions dès lors besoin de la notion de contextualisation, pour définir le droit d'accès à une ressource, non seulement selon l'utilisateur, mais aussi selon la ressource accédée.
 
 Par exemple, pour éditer un article de blog, il n'est parfois pas suffisant de contrôler une permission ``edit_article`` ou un rôle ``ROLE_CONTRIBUTOR``.
-Des informations supplémentaires doivent être contrôlés, comme par exemple la propriété de l'article (à un groupe ou à son auteur), le statut de l'article (publié, archivé...).
+Des informations supplémentaires doivent être contrôlées, comme par exemple la propriété de l'article (à un groupe ou à son auteur), le statut de l'article (publié, archivé...).
 
 Pour répondre à cette problématique, nous avons utilisé sur nos projets Symfony2 la notion de ``SecurityVoter``, ce qui nous a permis de répondre au besoin.
 Mais l'idée d'une librairie générique dédiée à ce type de gestion des droits était lancée. Une librairie où la contextualisation serait nativement gérée.
@@ -37,6 +37,7 @@ Par le biais d'un [document de spécification du NIST](http://nvlpubs.nist.gov/n
 Cette fois-ci, plutôt que de se baser sur les rôles d'un utilisateur, cette philosophie de contrôle d'accès se repose sur la notion d'attributs.
 Non seulement les attributs de l'utilisateur, mais également les attributs de la ressource accédée et de l'environnement.
 Ceci permet de pouvoir contrôler l'accès selon l'utilisateur mais aussi selon la ressource à laquelle on veut accéder !
+De plus, la notion de rôles et de permissions peut être conservée. Il suffit de considérer ces derniers comme étant des attributs de l'utilisateur. RBAC peut donc être une composante au sein d'ABAC !
 
 ![image alt text](http://ef67fc04ce9b132c2b32-8aedd782b7d22cfe0d1146da69a52436.r14.cf1.rackcdn.com/guidance-aims-to-ease-access-control-eresource-1-a-5706.jpg)
 
