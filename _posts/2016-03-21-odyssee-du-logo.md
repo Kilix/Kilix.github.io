@@ -4,7 +4,7 @@ title:  "L'Odyssée du logo : le design démocratique agile"
 description: "Créer une identité graphique originale et pertinente est un voyage qui paraît court en théorie, mais qui peut très vite tourner à l’odyssée en pratique, surtout si c’est sa propre identité qu’il faut créer."
 date:   2016-03-21 15:43:00
 author: Romain Magri
-header-img: img/160321045104714325.jpg"
+header-img: "img/160321045104714325.jpg"
 category: design
 tags: [design, agile]
 ---
