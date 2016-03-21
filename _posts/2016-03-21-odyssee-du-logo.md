@@ -18,6 +18,7 @@ Le design démocratique agile
 
 <b><i>Créer une identité graphique originale et pertinente est un voyage qui paraît court en théorie, mais qui peut très vite tourner à l’odyssée en pratique, surtout si c’est sa propre identité qu’il faut créer.</i></b>
 
+<!--more-->
 
 
 
