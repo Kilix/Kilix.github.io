@@ -9,8 +9,6 @@ category: design
 tags: [design, agile]
 ---
 
-L’Odyssée du logo
-==========================
 Le design démocratique agile
 --------------------------
 
