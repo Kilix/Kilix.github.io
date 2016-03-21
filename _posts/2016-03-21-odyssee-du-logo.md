@@ -9,6 +9,7 @@ category: design
 tags: [design, agile]
 ---
 
+
 Le design démocratique agile
 --------------------------
 
@@ -19,6 +20,7 @@ Le design démocratique agile
 <!--more-->
 
 
+-------------------------
 
 Partie 1: l'identité personnelle
 --------------------------
@@ -34,6 +36,8 @@ Le point zéro, le voici : <b>Kilix est l’agence web d’Extia.</b> Sans Extia
 “Que sommes-nous d’autre que la somme de nos souvenirs?”
  S. J. Watson
 ~~~
+-------------------------
+
 
 **En philosophie, l’identité est une notion qui peut se représenter par une flèche.** Elle a un début, une origine. Dans cette origine, il faut prendre en compte les raisons qui ont poussé nos parents à nous concevoir, les sentiments qu’ils éprouvaient, la volonté derrière l’acte. Pour Kilix, l’idée de départ est de créer un environnement de travail et une culture propice à l’épanouissement des individus dans le domaine du web. Cette identité possède également un axe, un objectif vers quoi elle va tendre à l’infini. ​Cet idéal se base sur les valeurs de départ et tend à les maintenir tout en les améliorant continuellement.​ Donc l’idée est de créer un environnement agréable articulé autour de valeurs positives comme la passion, la souplesse d’esprit et l’innovation, dont le but premier est le bonheur de ses salariés. Et à ce but vient naturellement se greffer une conséquence, qui est ici la croissance de l’entreprise. ​**En somme, l’identité a un début (le pourquoi), un but (le comment) et des conséquences (le quoi).**​ Mais le plus important dans ce chemin vers l’identité, ce sont les expériences. Chaque être humain comme chaque société traverse continuellement des épreuves qui forgent petit à petit cette identité. Ce que je suis, “qui” je suis, c’est la somme de tout ce que j’ai vécu entre mon origine et mon idéal.
 
@@ -42,8 +46,9 @@ Le point zéro, le voici : <b>Kilix est l’agence web d’Extia.</b> Sans Extia
 **Alors maintenant, c’est quoi Kilix?** Kilix, ce sont des profils très divers allant du développeur au designer en passant par l’agiliste et le product owner, et formant tous une unité. Ce sont des gens compétents, passionnés et dynamiques, qui ont cette volonté de créer toujours mieux. Ce sont des personnes qui préfèrent comprendre ensemble qu’obéir seuls. Car bercés dans l’agilité, ce n’est qu’ensemble qu’ils forment Kilix. Et enfin, c'est aussi une histoire d'arrivées et de départs, d'accords, de désaccords et de compromis, de joies et de peines communes. Voilà ce qu'on peut sommairement dire de l'histoire vécue par Kilix après plusieurs années de vie commune. Et une fois que nous savons précisément qui nous sommes, il reste à voir à quoi nous devons ressembler.
 
 
+-------------------------
 
-**Partie 2: le design démocratique**
+Partie 2: le design démocratique
 -------------------
 
 ~~~
@@ -70,6 +75,8 @@ Quand il a vu que les gens se réunissaient petit à petit autour de la concepti
 Au final, cela donne un processus qui réduit au maximum les risques car les créatifs sont constamment nourris de feedbacks maîtrisés de tout Kilix. De plus, on évite aussi l’épuisement des créatifs en bloquant le processus à une semaine. Le logo ainsi produit donne une agrégation des meilleures idées données lors de cette semaine et le résultat est très satisfaisant pour le plus grand nombre. Dans une boite aussi hétérogène que Kilix, c'est un exploit. La seule difficulté aura été de savoir dire stop à l’itératif, de tenir la semaine fixée. Par exemple, une fois que vous arrivez à une forme et une couleur validée par tous mais que vous vous demandez si on ne devrait pas rajouter un élément de détail après tout le processus, arrêtez-­vous. Prenez un peu de recul, regardez votre logo d’un oeil neuf, et vous verrez que le résultat que vous souhaitiez est sous vos yeux. Quand on en arrive à jouer au jeu des 7 différences entre 2 versions du logo, c’est qu’on est allé trop loin dans la réflexion.
 
 ![image alt text](http://nsa37.casimages.com/img/2016/03/21//160321042033305711.png)
+-------------------------
+
 
 Pour conclure, quand on veut créer une identité pour une entité il faut faire rentrer l'aspect philosophique dans la réflexion :
 * Il faut penser la chose comme la résultante d'un vécu et pas seulement comme l'image du présent.
