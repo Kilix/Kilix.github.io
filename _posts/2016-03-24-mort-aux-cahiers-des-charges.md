@@ -4,7 +4,7 @@ title:  "Mort au Cahier des Charges!"
 description: "De la l’illusion de la maîtrise à l’expérimentation maîtrisée"
 date:   2016-03-24 09:00:00
 author: Guillaume Jauffret
-header-img: "Banniere-article-mort-aux-cahiers-des-charges.jpg"
+header-img: "img/Banniere-article-mort-aux-cahiers-des-charges.jpg"
 category: agilité
 tags: [agilite]
 ---
