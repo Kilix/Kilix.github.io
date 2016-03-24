@@ -22,16 +22,19 @@ Pris au dépourvus, et sous la pression des enjeux, des dirigeants ou des financ
 
 *Réactions habituelles:* 
 
-     "- Allo monsieur le prestataire? 
-    - Oui?
-    - Il faut refaire les fonctionnalités x,y,z.
-    - Ah, je veux bien mais ce n’était pas dans le cahier des charges...ça vous coûtera la même chose, voir même un peu plus cher car vous me faîtes travailler dans l’urgence."
+> "-Allo monsieur le prestataire?
+
+> -Oui?"
+
+> -Il faut refaire les fonctionnalités x,y,z.
+
+> -Ah, je veux bien mais ce n’était pas dans le cahier des charges...ça vous coûtera la même chose, voir même un peu plus cher car vous me faîtes travailler dans l’urgence."
 
 _Réponses possibles:_
 
-    1. "Oui, d’accord. » (Hop, la facture augmente)"
-    2. "Hors de question! Tanpis...» (Vous avez dépensé des milliers d’euros pour rien.)"
-    3. "Hors de question, vous êtes au forfait. Tant que ça ne me convient pas vous devez faire les modifications nécessaires» (Vous entrez dans une période de négociations interminables dont les coûts cachés peuvent parfois être supérieurs aux coûts de votre projet.)
+> 1. "Oui, d’accord. » (Hop, la facture augmente)"
+> 2. "Hors de question! Tanpis...» (Vous avez dépensé des milliers d’euros pour rien.)"
+> 3. "Hors de question, vous êtes au forfait. Tant que ça ne me convient pas vous devez faire les modifications nécessaires» (Vous entrez dans une période de négociations interminables dont les coûts cachés peuvent parfois être supérieurs aux coûts de votre projet.)
 
 Le cahier des charges est un outil profondément ancré dans nos habitudes. Tout comme il est inconcevable pour un chef étoilé que son cuisinier ne respecte pas à la lettre sa recette, il nous semble inconcevable en tant que client de ne pas faire un cahier des charges que suivra à la lettre son prestataire. 
 
