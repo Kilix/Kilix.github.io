@@ -10,7 +10,7 @@ tags: [agilite]
 ---
 
 
-### *__De la l’illusion de la maîtrise à l’expérimentation maîtrisée.__*
+### *__De l’illusion de la maîtrise à l’expérimentation maîtrisée.__*
 
 <!--more-->
 
