@@ -11,6 +11,7 @@ tags: [agilite]
 
 
 ### *__De l’illusion de la maîtrise à l’expérimentation maîtrisée.__*
+... oubliez le cahier des charges, optez pour une approche empirique. Celle-ci limite énormément les risques en vous offrant une grande capacité d’adaptation aux feedbacks utilisateurs que vous allez récolter en continu. C’est la clé du succès.
 
 <!--more-->
 
