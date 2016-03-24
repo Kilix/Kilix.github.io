@@ -104,7 +104,7 @@ Pour en savoir plus sur toutes les méthodes et bonnes pratiques de conception e
 - Le Story Mapping de Jeff Patton: [http://www.agileproductdesign.com/presentations/user_story_mapping/](http://www.agileproductdesign.com/presentations/user_story_mapping/)
 - ainsi qu’aux principes fondateurs de l’agilité ([http://referentiel.institut-agile.fr/](http://referentiel.institut-agile.fr/)) et de l’approche Devops (intégration et déploiement continus: [https://fr.wikipedia.org/wiki/Devops](https://fr.wikipedia.org/wiki/Devops)).
 
-En somme, oubliez le cahier des charges, optez pour une approche empirique guidée par les feedbacks utilisateurs. Celle-ci limite énormément les risques en vous offrant une grande capacité d’adaptation aux feedbacks utilisateurs que vous allez récolter en continu. C’est la clé du succès.
+En somme, oubliez le cahier des charges, optez pour une approche empirique. Celle-ci limite énormément les risques en vous offrant une grande capacité d’adaptation aux feedbacks utilisateurs que vous allez récolter en continu. C’est la clé du succès.
 
 Pour conclure, l’adaptation des nos méthodes de conception et de développement vont de paire avec une adaptation des contrats qui lient client et prestataire. Dans ce nouvel environnement mouvant, le contrat forfaitaire (qui se fonde exclusivement sur un cahier des charges bornés dans le temps) est bien trop rigide. Il impose des contraintes bien trop fortes au prestataire et génère plus de zones de frottement qui ralentissent, voir font échouer un projet, qu’autre chose.
 
