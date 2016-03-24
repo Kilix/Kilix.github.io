@@ -48,11 +48,13 @@ Alors effectivement, établir un cahier des charges permet de réfléchir et de 
 
 Tout d’abord, rédiger un cahier des charges représente souvent une perte de temps colossale. 
 
-![perte de temps](http://nsa38.casimages.com/img/2016/03/24/16032411420483636.jpg)
+![perte de temps](http://nsa37.casimages.com/img/2016/03/24/160324014713517844.jpg)
+###### _source: [https://www.apprendre-a-dessiner.org/dessiner-une-fois-par-jour/](https://www.apprendre-a-dessiner.org/dessiner-une-fois-par-jour/)
 
 Il faut souvent plusieurs semaines voir plusieurs mois pour rédiger un cahier des charges de 30 à 150 pages. Cela requiert d’ailleurs souvent l’intervention de plusieurs services et experts et engendre ainsi un coût caché non négligeable.
 
 ![tout le monde donne son avis](http://nsa38.casimages.com/img/2016/03/24/160324114203648838.jpg)
+###### _source: [http://www.energieplus-lesite.be/index.php?id=10138](http://www.energieplus-lesite.be/index.php?id=10138)
 
 Ensuite, plus le cahier des charges est long, plus il a des chances d’être lourd à digérer voir peu compréhensible par endroit.
 
@@ -62,6 +64,7 @@ En effet, que dire de la capacité d’un prestataire à comprendre votre besoin
 De fait, votre chef de projet connaît parfaitement votre métier, votre besoin et a une bonne idée de l’état du marché. Or ceci est rarement le cas de votre prestataire. Ce dernier est un spécialiste des sites e-commerce mais que sait-il des caméras thermiques infrarouges ou de la vente de bouteilles de vin à domicile? Malheureusement, souvent pas grand-chose.
 
 ![image alt text](http://nsa37.casimages.com/img/2016/03/24/160324120108168962.jpg)
+###### _source: [http://www.berkshireeagle.com/berkshiresweek/ci_28492944/liza-donnelly-humor-is-political-cartoonists-tool-social](http://www.berkshireeagle.com/berkshiresweek/ci_28492944/liza-donnelly-humor-is-political-cartoonists-tool-social)
 
 Enfin, comme nous l’avons dit plus haut, l’instabilité de nos environnements et des marchés sur lesquels échangent les pays et les entreprises se fait de plus en plus sentir.
 
@@ -83,6 +86,7 @@ Autrement dit, nous avons plutôt intérêt à poser des hypothèses puis à les
 Seule l’expérimentation valide les hypothèses de succès que vous posez au démarrage de votre projet. Il faudra sans doute retourner sa veste, changer de direction, pivoter de nombreuses fois avant d’atteindre ce succès. 
 
 ![approche lean du pivot](http://nsa37.casimages.com/img/2016/03/24/160324115016164939.png)
+###### _source: [http://blog.asmartbear.com/lean-pivot.html](http://blog.asmartbear.com/lean-pivot.html)_
 
 Votre produit se transformera alors un succès lorsqu’il sera utilisé par vos utilisateurs cibles et qu’il répondra aux objectifs de croissance que vous aurez fixé en amont du projet.
 
@@ -91,6 +95,7 @@ Il est donc indispensable de nos jours d’adapter nos méthodes de conception e
 Pour ce faire, le cahier des charges n’a plus aucune utilité. il est nécessaire d’impliquer votre prestataire en amont du projet: définir avec lui la vision, les objectifs et les hypothèses de succès de votre produit puis de les faire évoluer ensemble. Votre prestataire deviendra alors votre meilleur partenaire dans le processus d’amélioration continue que vous allez lancer conjointement.
 
 ![vamélioration continue](http://nsa37.casimages.com/img/2016/03/24/160324115624959490.png)
+###### _source: [http://www.romanpichler.com/](http://www.romanpichler.com/)_
 
 Pour en savoir plus sur toutes les méthodes et bonnes pratiques de conception et de développement expérimentales (ou Lean Start-up), je vous renvoie directement vers des ouvrages tels que: 
 
