@@ -12,6 +12,8 @@ tags: [agilite]
 # Mort au Cahier des Charges! 
 ### De la l’illusion de la maîtrise à l’expérimentation maîtrisée
 
+<!--more-->
+
 Chaque année, des milliers de chefs de projet cochent, ligne par ligne, la liste des fonctionnalités des applications développées au forfait par leur prestataire.
 
 Mais combien de fois se rend-on compte que les fonctionnalités x,y et z qui ont pris 6 mois à être produites ne sont pas utilisées par les clients cibles? 
