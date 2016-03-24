@@ -56,7 +56,7 @@ Réexprimer le besoin et les objectifs décrits dans un cahier des charges suite
 En effet, que dire de la capacité d’un prestataire à comprendre votre besoin sinon qu’elle dépend principalement de votre capacité à l’exprimer clairement ainsi que de son interprétation propre. J’entends par clairement, accessible, compréhensible par tous. 
 De fait, votre chef de projet connaît parfaitement votre métier, votre besoin et a une bonne idée de l’état du marché. Or ceci est rarement le cas de votre prestataire. Ce dernier est un spécialiste des sites e-commerce mais que sait-il des caméras thermiques infrarouges ou de la vente de bouteilles de vin à domicile? Malheureusement, souvent pas grand-chose.
 
-![image alt text](http://nsa37.casimages.com/img/2016/03/24/mini_160324112045593102.jpg)
+![image alt text](http://nsa37.casimages.com/img/2016/03/24/160324120108168962.jpg)
 
 Enfin, comme nous l’avons dit plus haut, l’instabilité de nos environnements et des marchés sur lesquels échangent les pays et les entreprises se fait de plus en plus sentir.
 
