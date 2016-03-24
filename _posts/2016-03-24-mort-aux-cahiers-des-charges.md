@@ -49,12 +49,12 @@ Alors effectivement, établir un cahier des charges permet de réfléchir et de 
 Tout d’abord, rédiger un cahier des charges représente souvent une perte de temps colossale. 
 
 ![perte de temps](http://nsa37.casimages.com/img/2016/03/24/160324014713517844.jpg)
-###### _source: [https://www.apprendre-a-dessiner.org/dessiner-une-fois-par-jour/](https://www.apprendre-a-dessiner.org/dessiner-une-fois-par-jour/)
+###### _source: [https://www.apprendre-a-dessiner.org/dessiner-une-fois-par-jour/](https://www.apprendre-a-dessiner.org/dessiner-une-fois-par-jour/)_
 
 Il faut souvent plusieurs semaines voir plusieurs mois pour rédiger un cahier des charges de 30 à 150 pages. Cela requiert d’ailleurs souvent l’intervention de plusieurs services et experts et engendre ainsi un coût caché non négligeable.
 
 ![tout le monde donne son avis](http://nsa38.casimages.com/img/2016/03/24/160324114203648838.jpg)
-###### _source: [http://www.energieplus-lesite.be/index.php?id=10138](http://www.energieplus-lesite.be/index.php?id=10138)
+###### _source: [http://www.energieplus-lesite.be/index.php?id=10138](http://www.energieplus-lesite.be/index.php?id=10138)_
 
 Ensuite, plus le cahier des charges est long, plus il a des chances d’être lourd à digérer voir peu compréhensible par endroit.
 
@@ -64,7 +64,7 @@ En effet, que dire de la capacité d’un prestataire à comprendre votre besoin
 De fait, votre chef de projet connaît parfaitement votre métier, votre besoin et a une bonne idée de l’état du marché. Or ceci est rarement le cas de votre prestataire. Ce dernier est un spécialiste des sites e-commerce mais que sait-il des caméras thermiques infrarouges ou de la vente de bouteilles de vin à domicile? Malheureusement, souvent pas grand-chose.
 
 ![image alt text](http://nsa37.casimages.com/img/2016/03/24/160324120108168962.jpg)
-###### _source: [http://www.berkshireeagle.com/berkshiresweek/ci_28492944/liza-donnelly-humor-is-political-cartoonists-tool-social](http://www.berkshireeagle.com/berkshiresweek/ci_28492944/liza-donnelly-humor-is-political-cartoonists-tool-social)
+###### _source: [http://www.berkshireeagle.com/berkshiresweek/ci_28492944/liza-donnelly-humor-is-political-cartoonists-tool-social](http://www.berkshireeagle.com/berkshiresweek/ci_28492944/liza-donnelly-humor-is-political-cartoonists-tool-social)_
 
 Enfin, comme nous l’avons dit plus haut, l’instabilité de nos environnements et des marchés sur lesquels échangent les pays et les entreprises se fait de plus en plus sentir.
 
