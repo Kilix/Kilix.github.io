@@ -39,7 +39,7 @@ _Réponses possibles:_
 
 Le cahier des charges est un outil profondément ancré dans nos habitudes. Tout comme il est inconcevable pour un chef étoilé que son cuisinier ne respecte pas à la lettre sa recette, il nous semble inconcevable en tant que client de ne pas faire un cahier des charges que suivra à la lettre son prestataire. 
 
-Cependant, si nos habitudes et nos pratiques ne changent pas, le monde change à la vitesse grand V et le monde du numériques change, évolue à la vitesse de la lumière. 
+Cependant, si nos habitudes et nos pratiques ne changent pas, le monde change à la vitesse grand V, celui du numérique, à la vitesse de la lumière.
 Notre vision évolue, les besoins de nos utilisateurs, les technos, les clients et les utilisateurs eux-mêmes évoluent, sans nous prévenir, car le progrès jaillit de toutes parts, la science avance 10 fois plus vite qu’avant. 
 
 Le système d’information mondial permet à la fois de faire jaillir le progrès de toute part mais crée aussi un monde instable où aucune certitude n’est acquise d’avance.
