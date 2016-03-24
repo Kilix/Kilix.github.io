@@ -95,9 +95,9 @@ Pour ce faire, le cahier des charges n’a plus aucune utilité. il est nécessa
 Pour en savoir plus sur toutes les méthodes et bonnes pratiques de conception et de développement expérimentales (ou Lean Start-up), je vous renvoie directement vers des ouvrages tels que: 
 
 - Lean Start-up d’Eric Ries: [http://theleanstartup.com/](http://theleanstartup.com/)
-- La Méthode Running Lean de Ash Maurya: http://leanstack.com/running-lean-book/
-- Le Story Mapping de Jeff Patton
-- ainsi qu’aux principes fondateurs de l’agilité (http://referentiel.institut-agile.fr/) et de l’approche Devops (intégration et déploiement continus: https://fr.wikipedia.org/wiki/Devops).
+- La Méthode Running Lean de Ash Maurya: [http://leanstack.com/running-lean-book/](http://leanstack.com/running-lean-book/)
+- Le Story Mapping de Jeff Patton: [http://www.agileproductdesign.com/presentations/user_story_mapping/](http://www.agileproductdesign.com/presentations/user_story_mapping/)
+- ainsi qu’aux principes fondateurs de l’agilité ([http://referentiel.institut-agile.fr/](http://referentiel.institut-agile.fr/)) et de l’approche Devops (intégration et déploiement continus: [https://fr.wikipedia.org/wiki/Devops](https://fr.wikipedia.org/wiki/Devops)).
 
 En somme, oubliez le cahier des charges, optez pour une approche empirique guidée par les feedbacks utilisateurs. Celle-ci limite énormément les risques en vous offrant une grande capacité d’adaptation aux feedbacks utilisateurs que vous allez récolter en continu. C’est la clé du succès.
 
