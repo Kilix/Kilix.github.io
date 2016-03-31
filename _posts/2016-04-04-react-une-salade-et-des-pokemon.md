@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ivre, il fait un website SEO-friendly avec React"
+title:  "Ivre, il fait un site web SEO-friendly avec React"
 description: "Ou quelles sont les problématiques d'un site éditorial avec React"
 header-img: "img/salade.jpeg"
 date:   2015-04-04 17:00:00
