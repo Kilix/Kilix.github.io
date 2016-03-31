@@ -318,7 +318,8 @@ Il fait des trucs magiques afin de permettre à NodeJS de gérer les assets :).
 ## En conclusion
 
 C’est à peu près tout ce dont vous avez besoin de savoir afin de coder une
-application universelle avec React+Redux. Biensur je n’allais pas vous laissez
-sans vous proposer la stack que l’on utilise sur ce projet :
+application universelle avec React! Aujourd'hui les concepts universels sont assez matures pour vous permettre de vous lancer à l'aventure, donc n'ayez surtout pas peur de tenter l'expérience! #HtmlIsDead #JsAllTheWay #ImJoking
+
+Bien sûr je n’allais pas vous laissez sans vous proposer la stack que l’on utilise sur ce projet :
 
 [React-redux-universal-hot-example](https://github.com/erikras/react-redux-universal-hot-example)
