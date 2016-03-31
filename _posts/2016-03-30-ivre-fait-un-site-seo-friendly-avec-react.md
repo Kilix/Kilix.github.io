@@ -9,6 +9,7 @@ category: frontend
 tags: [react]
 ---
 
+# Ou quelles sont les problématiques d'un site éditorial avec React+Redux
 
 Tout le monde vous le dira à Kilix, React et moi, c’est un peu le coup de
 foudre, Love at first sight. Programmation fonctionnelle, Redux, Stateless Components, Fonctions pures, Immutabilité … (*sigh*, augmentation de la fréquence cardiaque). J’ai d’ailleurs pour projet de me tatouer le logo React sur les fesses.
