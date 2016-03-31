@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Ivre, il fait un site web SEO-friendly avec React"
-description: "Ou quelles sont les problématiques d'un site éditorial avec React"
+description: "Ou quelles sont les problématiques d'un site éditorial avec React+Redux"
 header-img: "img/salade.jpeg"
-date:   2015-04-04 17:00:00
+date:   2015-03-31 15:00:00
 author: Stéphane Montlouis-Calixte
 category: frontend
 tags: [react]
