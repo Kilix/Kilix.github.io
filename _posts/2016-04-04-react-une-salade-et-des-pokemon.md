@@ -11,14 +11,14 @@ tags: [react]
 
 
 Tout le monde vous le dira à Kilix, React et moi, c’est un peu le coup de
-foudre, love at first sight. Programmation fonctionnelle, Redux, Stateless Components, Fonctions pures, Immutabilité … (*sigh*, augmentation de le fréquence cardiaque). J’ai d’ailleurs pour projet de me tatouer le logo React sur les fesses.
+foudre, Love at first sight. Programmation fonctionnelle, Redux, Stateless Components, Fonctions pures, Immutabilité … (*sigh*, augmentation de la fréquence cardiaque). J’ai d’ailleurs pour projet de me tatouer le logo React sur les fesses.
 
 <!--more-->
 
 Plus sérieusement, il y a quelques semaines, [@Huitre](https://github.com/huitre) et moi avons été staffés
 sur le projet de refonte du site Amnesty France. Après l’excitation due à
 l’ampleur du projet et à l’ouverture d’esprit du client — MVP basé sur des
-personas, agilité tout çà, nous nous sommes attelés à la phase préférée du
+personas, agilité tout ça, nous nous sommes attelés à la phase préférée du
 développeur :
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/1600/1*mtHu4u4VlMUyvaDfP-f4cA.jpeg)
@@ -39,7 +39,7 @@ retrouve entre 1 à 2 journées de réflexion pour la stack.
 À ce jour, j’ai pas mal d’expérience avec **React+Redux**. J’ai eu l’occasion de
 mettre en production plusieurs Single Page Applications et de créer une application
 semi-[universelle](https://medium.com/@mjackson/universal-javascript-4761051b7ae9#.2wb75kfxk)
-— *qui délivre une portion de la page côté back-end*, mais JAMAIS je n’aurai
+— *qui délivre une portion de la page côté back-end*, mais JAMAIS je n’aurais
 pensé utiliser React comme moteur de template sur un site éditorial —
 *j’explique pourquoi un peu plus bas*. Histoire de level-up et de s’amuser un
 peu — *l’intégration classique, c’est un peu redondant*,
@@ -101,7 +101,7 @@ document.querySelector('.ActButton').addEventListener('click', e => {
 ## Javascript universel pour un site web ?
 
 L’idée qui vient naturellement à l’esprit c’est de réutiliser React côté
-front-end. Exactement comme une SPA Universelle en fait*.*
+front-end. Exactement comme une SPA universelle en fait*.*
 
 La seule différence étant le changement de paradigme: D’un côté on fait une
 application pure front-end puis on y ajoute le rendu back-end. D’un autre on
@@ -112,7 +112,7 @@ Qui plus est, aujourd’hui les sites internet se rapprochent beaucoup plus
 d’applications web que des sites web 2.0, donc pourquoi pas ?
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/2000/1*wlc01zs9x47aPOnsQCG3Yw.png)
-<span class="figcaption_hack">Wireframe d’un article d’amnesty. Notez les éléments dans le header qui se rapproche d'une application riche </span>
+<span class="figcaption_hack">Wireframe d’un article d’Amnesty France. Notez les éléments dans le header qui se rapproche d'une application riche </span>
 
 Ce serait tellement plus simple de faire ceci :
 
@@ -157,7 +157,7 @@ this._onActButtonClick = (e) => {
 ~~~
 
 MUCH BETTER ! Remarquez l’utilisation des CSS Modules et du package react-inlineSvg,
-je reviendrai là dessus.
+je reviendrai là-dessus.
 
 <br>
 
@@ -170,7 +170,7 @@ et experts SEO. Mais n’oublions pas que c’est ce changement de paradigme
 Back-End JS vers Front-End JS qui nous permet de prioriser le référencement en
 pensant amélioration progressive.
 
-De plus Amnesty a émis le souhait d’être compatible avec les navigateurs récents
+De plus Amnesty France a émis le souhait d’être compatible avec les navigateurs récents
 (Chrome, FF, Safari, IE 10 +…), donc pas de panique pour ce qui est du support
 des anciennes versions IE.
 
