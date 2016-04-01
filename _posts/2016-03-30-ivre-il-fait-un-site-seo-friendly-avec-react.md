@@ -112,9 +112,6 @@ front-end.
 Qui plus est, aujourd’hui les sites internet se rapprochent beaucoup plus
 d’applications web que des sites web 2.0, donc pourquoi pas ?
 
-![](https://d262ilb51hltx0.cloudfront.net/max/2000/1*wlc01zs9x47aPOnsQCG3Yw.png)
-<span class="figcaption_hack">Wireframe d’un article d’Amnesty France. Notez les éléments dans le header qui se rapproche d'une application riche </span>
-
 Ce serait tellement plus simple de faire ceci :
 
 ~~~ javascript
