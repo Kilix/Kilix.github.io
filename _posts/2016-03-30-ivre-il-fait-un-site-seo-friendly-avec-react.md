@@ -25,7 +25,7 @@ développeur :
 ![](https://d262ilb51hltx0.cloudfront.net/max/1600/1*mtHu4u4VlMUyvaDfP-f4cA.jpeg)
 
 
-Jade ? Haml ? Liquid ? Express ? Loopback ? Hapi ? Sylex ? PostCSS ? CSS Modules
+Jade ? Haml ? Liquid ? Express ? Loopback ? Hapi ? Silex ? PostCSS ? CSS Modules
 ? Symfony 2 ?
 
 Je ne l’ai pas forcément mentionné, mais oui, ne vous inquiétez pas, on choisit
